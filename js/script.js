@@ -148,7 +148,32 @@ $(function () {
 			dots: true,
 			infinite: true,
 			slidesToShow: 4,
-			slidesToScroll: 4
+			slidesToScroll: 4,
+			responsive: [
+			    {
+			      breakpoint: 1024,
+			      settings: {
+			        slidesToShow: 3,
+			        slidesToScroll: 3,
+			        infinite: true,
+			        dots: true
+			      }
+			    },
+			    {
+			      breakpoint: 600,
+			      settings: {
+			        slidesToShow: 2,
+			        slidesToScroll: 2
+			      }
+			    },
+			    {
+			      breakpoint: 480,
+			      settings: {
+			        slidesToShow: 1,
+			        slidesToScroll: 1
+			      }
+			    }
+			 ]
 		});
 	}
 	
@@ -157,7 +182,23 @@ $(function () {
 			slidesToShow: 3,
 			slidesToScroll: 3,
 			prevArrow: '.services-arrow-left',
-            nextArrow: '.services-arrow-right'
+            nextArrow: '.services-arrow-right',
+            responsive: [
+			    {
+			      breakpoint: 600,
+			      settings: {
+			        slidesToShow: 2,
+			        slidesToScroll: 2
+			      }
+			    },
+			    {
+			      breakpoint: 480,
+			      settings: {
+			        slidesToShow: 1,
+			        slidesToScroll: 1
+			      }
+			    }
+			 ]
 		});
 	}
 	if ($('.news-slider').length) {
@@ -166,7 +207,23 @@ $(function () {
 			infinite: true,
 			slidesToShow: 3,
 			slidesToScroll: 3,
-			arrows: false
+			arrows: false,
+			responsive: [
+			    {
+			      breakpoint: 600,
+			      settings: {
+			        slidesToShow: 2,
+			        slidesToScroll: 2
+			      }
+			    },
+			    {
+			      breakpoint: 480,
+			      settings: {
+			        slidesToShow: 1,
+			        slidesToScroll: 1
+			      }
+			    }
+			 ]
 		});
 	}
 	$('.find-doctor').click(function(event) {
@@ -182,5 +239,36 @@ $(function () {
 		$('#agree-form').css('display', 'none');
 		$('#make-appointment').css('display', 'block');
 	});	
+
+	if ($('.right-menu').length) {
+	    $(".right-menu ul li").each(function(){
+	      if ($(this).has("ul").length) {
+	        $(this).find('a').eq(0).addClass('hassub');
+	      };
+	    });
+	    $.each($(".right-menu ul li"), function (index, obj) {
+	      if ($(obj).has("ul").length) {
+	          $(obj).has("ul").find("a:first").attr('href', 'javascript:void(0)');
+	      }
+	    });
+	    $(".right-menu > ul > li").click(
+	      function() {
+	        $(".right-menu > ul > li").removeClass('active');
+	        $(this).addClass('active');
+	        if ($(this).has("ul").length) {
+	          $(".right-menu  > ul > li").not('.active').find('ul').slideUp(400);
+	          $(this).find('ul').eq(0).slideDown(400);
+	        };
+	      }
+	    );
+	    $(".right-menu > ul > li > ul > li ").click(
+	      function() {
+	        if ($(this).has("ul").length) {
+	          $(".right-menu   > ul > li > ul > li ul").slideUp(400);
+	          $(this).find('ul').eq(0).slideDown(400);
+	        };
+	      }
+	    );
+	  }
 
 })

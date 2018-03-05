@@ -3,11 +3,29 @@
 	
 }
 @media only screen and (max-width: 1280px) {
-	
+	.appointment {
+		left: 5%;
+	}
+	.head-space {
+		height: 12rem;
+	}
 }
 @media only screen and (max-width: 1024px) {
+	.head-space {
+		height: 7.5rem;
+	}
+	.btn-primary {
+	    padding: 1rem 1.5rem;
+	    font-size: 2rem;
+	}
+	.form-control {
+		margin-bottom: 2rem;
+	}
 	.header {
 		border-bottom: 2px solid #0c806b;
+	}
+	.carousel-control-next, .carousel-control-prev {
+		display: none;
 	}
 	.js-menu-mobile {
 		display: inline-block;
@@ -18,16 +36,85 @@
 	.main-nav, .header .clinics {
 		display: none;
 	}
+	.index-three-box {
+	    margin-top: 3rem;
+	}
+	.index-three-box .item {
+		margin-bottom: 2rem;
+	}
+	.appointment {
+		padding:  0 1.5rem;
+	    position: relative;
+	    top: -8.1rem;
+	    left: 0;
+	    width: 100%;
+	    max-width: 100%;
+	}
+	.appointment .nav-tabs .nav-link .icon {
+		font-size: 3rem;
+		padding: 1rem 1.2rem;
+	}
+	.appointment .nav-tabs .nav-link {
+		padding: 1.5rem
+	}
+	.appointment .tab-pane {
+		background-color: transparent
+	}
+	.appointment .content {
+	    padding: 1rem 2rem;
+	    color: #fff;
+	    width: 100%;
+	    font-size: 2rem;
+	    line-height: 1.2;
+	    color: #696a6a;
+	}
+	.appointment .content .form-control {
+		color: #696a6a;
+		font-size: 2rem !important;
+	}
+	.appointment #agree-form {
+		font-size: 2rem;
+	}
+	.appointment  ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	  color: #696a6a;
+	}
+	.appointment  ::-moz-placeholder { /* Firefox 19+ */
+	  color: #696a6a;
+	}
+	.appointment  :-ms-input-placeholder { /* IE 10+ */
+	  color: #696a6a;
+	}
+	.appointment  :-moz-placeholder { /* Firefox 18- */
+	  color: #696a6a;
+	}
+	.appointment .col-lg-9 p {
+		margin-bottom: 2rem;
+	}
+	.services .left, .services.right {
+		margin-bottom: 2rem;
+	}
+	.highlight .item .box {
+		margin-bottom: 2rem
+	}
 }	
 @media only screen and (max-width: 768px) {
-	
+	html { font-size: 67%; /* Mac dinh ve gia tri 10px */ }
+	.make-appointment-page .location .rows {
+		display: block !important
+	}
 }
 
 @media only screen and (max-width: 700px) {
 	
 }
 @media only screen and (max-width: 540px) {
-	
+	.header .top .logo {
+		width: 16.7rem;
+    	margin-top: 1.5rem;
+	}
+	.head-space {
+		height: 6.8rem;
+	}
 }
 @media only screen and (max-width: 360px) {
 	

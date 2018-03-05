@@ -1,5 +1,21 @@
 <?php include('header.php') ?>
     <div id="slider" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="images/ex/slider/slider-1.jpg" alt="First slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="images/ex/slider/slider-2.jpg" alt="Second slide">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#slider" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#slider" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
       <div class="appointment">
         <ul class="nav nav-tabs">
           <li data-toggle="tooltip" data-placement="top" title="Make an Appointment" ><a class="active" data-toggle="tab" href="#tab1"><span class="icon"><i class="far fa-calendar-alt"></i></span></a></li>
@@ -11,7 +27,7 @@
               <form action="" method="post" id="make-appointment"">
                 <div class="row col col-lg-12">All fields marked with * are required</div>
                 <div class="row">
-                  <div class="col col-lg-12">
+                  <div class="col-lg-12">
                     <select class="form-control select-style">
                       <option>Specialist Appointment</option>
                       <option value="1">Ho Chi Minh Clinic</option>
@@ -19,35 +35,35 @@
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col col-lg-12">
+                  <div class="col-lg-12">
                     <p class="blue-text">Specialist Appointment Details</p>
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col col-lg-6">
+                  <div class="col-lg-6 col-sm-12">
                     <select class="form-control">
                       <option value="1">Ho Chi Minh Clinic</option>
                     </select>
                   </div>
-                  <div class="col col-lg-6">
+                  <div class="col-lg-6 col-sm-12">
                     <input type="text" class="form-control" placeholder="Preferred Doctor">
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col col-lg-6">
+                  <div class="col-lg-6 col-sm-12">
                     <select class="form-control">
                       <option value="1">Preferred Doctor</option>
                     </select>
                   </div>
-                  <div class="col col-lg-6">
+                  <div class="col-lg-6 col-sm-12">
                     <input type="text" class="form-control datepicker" placeholder="Preferred Appointment Date">
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col col-lg-9">
+                  <div class="col-lg-9 col-sm-12">
                     <p>After successful submission, our staff will contact you to confirm your appointment</p>
                   </div>
-                  <div class="col col-lg-3 text-right">
+                  <div class="col-lg-3 col-sm-12 text-right">
                     <a href="#" class="btn btn-primary">Next</a>
                   </div>
                 </div>
@@ -77,7 +93,7 @@
                     </div>
                   </p>
                   <p>
-                    <a href="#" class="btn btn-primary">Next</a>
+                    <a href="#" class="btn btn-primary">Agree</a>
                   </p>
               </form>
             </div>
@@ -85,9 +101,9 @@
           <div id="tab2" class="tab-pane">
             <div class="content">
               <form action="" method="post">
-                <div class="row col col-lg-12"><p class="size-24">Find a Doctor</p></div>
+                <div class="row"><p class="size-24">Find a Doctor</p></div>
                 <div class="row">
-                  <div class="col col-lg-12">
+                  <div class="col-lg-12">
                     <div class="form-check">
                       <input class="form-check-input find-doctor" active="doctor-form" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
                       <label class="form-check-label" for="exampleRadios1">
@@ -110,17 +126,17 @@
                 </div>
                 <div class="doctor-form dcform active">
                   <div class="row">
-                    <div class="col col-lg-12">
+                    <div class="col-lg-12">
                       <input type="text" class="form-control" placeholder="Search by Doctor's Name">
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col col-lg-6">
+                    <div class="col-lg-6 col-sm-12">
                       <select class="form-control">
                         <option value="1">Specailty</option>
                       </select>
                     </div>
-                    <div class="col col-lg-6">
+                    <div class="col-lg-6 col-sm-12">
                       <span class="or"> or</span>
                       <select class="form-control">
                         <option value="1">Centre</option>
@@ -128,7 +144,7 @@
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col col-lg-6">
+                    <div class="col-lg-6 col-sm-12">
                       <select class="form-control">
                         <option value="1">Location</option>
                       </select>
@@ -137,17 +153,17 @@
                 </div>
                 <div class="dentist-form dcform">
                   <div class="row">
-                    <div class="col col-lg-12">
+                    <div class="col-lg-12 col-sm-12">
                       <input type="text" class="form-control" placeholder="Search by Dentist's Name">
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col col-lg-6">
+                    <div class="col-lg-6 col-sm-12">
                       <select class="form-control">
                         <option value="1">Specailty</option>
                       </select>
                     </div>
-                    <div class="col col-lg-6">
+                    <div class="col-lg-6 col-sm-12">
                       <span class="or"> or</span>
                       <select class="form-control">
                         <option value="1">Location</option>
@@ -157,17 +173,17 @@
                 </div>
                 <div class="physician-form dcform">
                   <div class="row">
-                    <div class="col col-lg-12">
+                    <div class="col-lg-12 col-sm-12">
                       <input type="text" class="form-control" placeholder="Search by Physician's Name">
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col col-lg-6">
+                    <div class="col-lg-6 col-sm-12">
                       <select class="form-control">
                         <option value="1">Clinical Interest</option>
                       </select>
                     </div>
-                    <div class="col col-lg-6">
+                    <div class="col-lg-6">
                       <span class="or"> or</span>
                       <select class="form-control">
                         <option value="1">Location</option>
@@ -176,7 +192,7 @@
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col col-lg-9">
+                  <div class="col-lg-9">
                     <a href="#" class="blue-text" style="font-size: 1.6rem !important; display: block; line-height: 1.5;"><i class="far fa-bookmark" ></i> Notes (0 Doctors)</a>
                   </div>
                   <div class="col col-lg-3 text-right">
@@ -188,39 +204,23 @@
           </div>
         </div>
       </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img class="d-block w-100" src="images/ex/slider/slider-1.jpg" alt="First slide">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="images/ex/slider/slider-2.jpg" alt="Second slide">
-        </div>
-      </div>
-      <a class="carousel-control-prev" href="#slider" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#slider" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
     </div>
     <div class="index-three-box">
       <div class="container">
         <div class="row">
-          <div class="item col col-lg-4 col-sm-12">
+          <div class="item col-lg-4 col-sm-12">
            <div class="box">
               <h3 class="name"><a href="#">RAFFLES MEDICAL GROUP</a></h3>
               <p class="text">Raffles Medical Group (RMG) is a leading private healthcare provider in Asia, operating medical facilities across 13 cities in Singapore, China, Japan, Vietnam and Cambodia. </p>
           </div>
           </div>
-          <div class="item col col-lg-4 col-sm-12">
+          <div class="item col-lg-4 col-sm-12">
             <div class="box">
               <h3 class="name"><a href="#">RAFFLES MEDICAL GROUP</a></h3>
               <p class="text">Raffles Medical Group (RMG) is a leading private healthcare provider in Asia, operating medical facilities across 13 cities in Singapore, China, Japan, Vietnam and Cambodia. </p>
             </div>
           </div>
-          <div class="item col col-lg-4 col-sm-12">
+          <div class="item col-lg-4 col-sm-12">
             <div class="box">
               <h3 class="name"><a href="#">RAFFLES MEDICAL GROUP</a></h3>
               <p class="text">Raffles Medical Group (RMG) is a leading private healthcare provider in Asia, operating medical facilities across 13 cities in Singapore, China, Japan, Vietnam and Cambodia. </p>
@@ -235,21 +235,21 @@
           <h2>“A perfect healthcheck program could tell your “inside” story”</h2>
         </div>
         <div class="row">
-          <div class="item col col-lg-4 col-sm-12">
+          <div class="item col-lg-4 col-sm-12">
             <div class="box">
               <a href="#" class="icon"><span class="icon-heart-beat"></span></a>
               <h3 class="name"><a href="#">HEALTH CHECK <br> PROGRAMS</a></h3>
               <p class="text">Annual healthcheck screening is one of the best ways to protect your health. A healthy lifestyle means making the right choices in diet and exercise and also having regular health checks to ensure your body are on the right track and to identify any emerging health issues or problems.</p>
             </div>
           </div>
-          <div class="item col col-lg-4 col-sm-12">
+          <div class="item col-lg-4 col-sm-12">
             <div class="box">
               <a href="#" class="icon"><span class="icon-notepad"></span></a>
               <h3 class="name"><a href="#">VISA  <br> HEALTH CHECK</a></h3>
               <p class="text">Raffles Medical Ho Chi Minh Clinic provides Visa Health Check for Australian, New Zealand. Raffles Medical Hanoi provides visa check ups for Belgium and Germany.</p>
             </div>
           </div>
-          <div class="item col col-lg-4 col-sm-12">
+          <div class="item col-lg-4 col-sm-12">
             <div class="box">
               <a href="#" class="icon"><span class="icon-plus"></span></a>
               <h3 class="name"><a href="#">WORK-PERMIT <br>   HEALTH CHECK</a></h3>
