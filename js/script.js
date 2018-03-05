@@ -1,4 +1,8 @@
 $(function() {
+	$('[data-toggle="tooltip"]').tooltip();
+	if ($('.datepicker').length) {
+		$('.datepicker').datepicker();
+	}
 	// Initialize Slidebars
 	var controller = new slidebars();
 	controller.init();
@@ -45,7 +49,19 @@ $(function() {
 });
 
 $(function () {
-	$('.nav li:has(ul) > a').addClass('hassub');
+	$('.nav').find('li').find('a').addClass('nav-link');
+	$('.nav li:has(ul)').addClass('dropdown');
+	$('.nav li:has(ul) > a').addClass('dropdown-toggle').attr({
+		'data-toggle': 'dropdown',
+		'aria-haspopup': 'true',
+		'aria-expanded' : 'false'
+	});
+	$(".nav li").each(function(){
+      if ($(this).has("ul").length) {
+        $(this).find('ul').eq(0).addClass('dropdown-menu');
+        $(this).find('li').addClass('dropdown-item');
+      };
+    });
 	if ($('.left-menu').length) {
 	    $(".left-menu ul li").each(function(){
 	      if ($(this).has("ul").length) {
@@ -153,5 +169,18 @@ $(function () {
 			arrows: false
 		});
 	}
+	$('.find-doctor').click(function(event) {
+		var cls = "." + $(this).attr('active');
+		$('.dcform').fadeOut(400);
+		$(cls).fadeIn(400);
+	});
+
+	$('.appointment').hover(function() {
+		$('#make-appointment').css('display', 'none');
+		$('#agree-form').css('display', 'block');
+	}, function() {
+		$('#agree-form').css('display', 'none');
+		$('#make-appointment').css('display', 'block');
+	});	
 
 })

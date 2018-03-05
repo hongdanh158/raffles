@@ -27,6 +27,9 @@
 <div class="body" canvas="container">
     <header class="header">
       <div class="top container">
+        <div id="cd-menu-trigger" class="js-toggle-right-slidebar js-menu-mobile">
+            <div class="trigger-menu"><span class="three-bars-icon"></span></div>
+        </div>
         <a class="logo" href="index.php">
           <img src="images/logo.png" alt="">
         </a>
@@ -35,9 +38,9 @@
             EN/VN/JP
           </button>
           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="#">English</a>
-            <a class="dropdown-item" href="#">Vietnamese</a>
-            <a class="dropdown-item" href="#">Japanese</a>
+            <a class="dropdown-item" href="#"><img src="images/languages/us.png" alt=""> English</a>
+            <a class="dropdown-item" href="#"><img src="images/languages/vn.png" alt=""> Vietnamese</a>
+            <a class="dropdown-item" href="#"><img src="images/languages/japan.png" alt=""> Japanese</a>
           </div>
         </div>
         <div class="search float-right">
@@ -86,46 +89,128 @@
       <!-- Navbar-->
       <div class="main-nav">
         <div class="container">
-          <ul class="nav">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Our Services
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li class="dropdown-item">
+          <ul class="nav justify-content-center">
+            <li>
+              <a href="#">Our Services</a>
+              <ul>
+                <li>
                   <a href="#">Action</a>
                 </li>
-                <li class="dropdown-item">
+                <li>
                   <a href="#">Action</a>
                 </li>
-                <li class="dropdown-item">
+                <li>
                   <a href="#">Action</a>
                 </li>
-                <li class="dropdown-item">
+                <li>
                   <a href="#">Action</a>
                 </li>
               </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Health Check Programs</a>
+            <li>
+              <a href="#">Health Check Programs</a>
+              <ul>
+                <li>
+                  <a href="#">Action 2</a>
+                </li>
+                <li>
+                  <a href="#">Action 2</a>
+                </li>
+                <li>
+                  <a href="#">Action 2</a>
+                </li>
+                <li>
+                  <a href="#">Action 2</a>
+                </li>
+              </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Healthcare Team</a>
+            <li>
+              <a  href="#">Healthcare Team</a>
+              <ul>
+                <li>
+                  <a href="#">Action</a>
+                </li>
+                <li>
+                  <a href="#">Action</a>
+                </li>
+                <li>
+                  <a href="#">Action</a>
+                </li>
+                <li>
+                  <a href="#">Action</a>
+                </li>
+              </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Our Clinics</a>
+            <li>
+              <a  href="#">Our Clinics</a>
+              <ul>
+                <li>
+                  <a href="#">Action</a>
+                </li>
+                <li>
+                  <a href="#">Action</a>
+                </li>
+                <li>
+                  <a href="#">Action</a>
+                </li>
+                <li>
+                  <a href="#">Action</a>
+                </li>
+              </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Make Appointment</a>
+            <li>
+              <a  href="#">Make Appointment</a>
+              <ul>
+                <li>
+                  <a href="#">Action</a>
+                </li>
+                <li>
+                  <a href="#">Action</a>
+                </li>
+                <li>
+                  <a href="#">Action</a>
+                </li>
+                <li>
+                  <a href="#">Action</a>
+                </li>
+              </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">E-medical Record</a>
+            <li>
+              <a  href="#">E-medical Record</a>
+              <ul>
+                <li>
+                  <a href="#">Action</a>
+                </li>
+                <li>
+                  <a href="#">Action</a>
+                </li>
+                <li>
+                  <a href="#">Action</a>
+                </li>
+                <li>
+                  <a href="#">Action</a>
+                </li>
+              </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">News & Information</a>
+            <li>
+              <a  href="#">News & Information</a>
+              <ul>
+                <li>
+                  <a href="#">Action</a>
+                </li>
+                <li>
+                  <a href="#">Action</a>
+                </li>
+                <li>
+                  <a href="#">Action</a>
+                </li>
+                <li>
+                  <a href="#">Action</a>
+                </li>
+              </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About Us</a>
+            <li>
+              <a  href="#">About Us</a>
             </li>
           </ul>
         </div>
