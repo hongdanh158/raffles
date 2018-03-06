@@ -146,20 +146,14 @@ strong {
   padding-right: 2rem;
 }
 .dropdown-toggle::after {
-    position: absolute;
-    right: 1rem;
-    top: 0.5rem;
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    content: "\f107";
-    border-top: .3em transparent;
-    color: #a9cf48;
-    font-size: 1.8rem;
+  display: none;
 }
-
+.dropdown-toggle .icon {
+  float: right;
+  margin-left: 0.5rem;
+  color: #a9cf48;
+  font-size: 1.8rem;
+}
 .btn-primary {
   border-radius: 0;
   background-color: transparent;
@@ -181,6 +175,29 @@ strong {
 .bs-tooltip-auto[x-placement^=top] .arrow::before, .bs-tooltip-top .arrow::before {
   border-top-color: #0c806b;
 }
+.card-header .icon {
+  position: absolute;
+  top: 2rem;
+  right: 0;
+  color: #0c806b;
+  display: none;
+  font-size: 1.6rem;
+}
+.card-header .icon.plus {
+  display: block;
+}
+.card-header button[aria-expanded="true"] .icon.plus {
+  display: none;
+}
+.card-header button[aria-expanded="true"] .icon.minus {
+  display: block;
+}
+.card-header .btn-link {
+  display: block !important;
+  width: 100%;
+  text-align: left;
+}
+
 /*End Overwrite Bootstrap CSS*/
 .js-menu-mobile {
   display: none;
@@ -419,6 +436,9 @@ strong {
   color: #0c806b;
   font-size: 1.4rem;
 }
+.header .language .btn-secondary .icon {
+  margin-top: -0.3rem;
+}
 .header .main-nav {
   background-color: #0c806b;
 }
@@ -428,13 +448,18 @@ strong {
 .header .main-nav .nav > li > a {
   color: #fff;
   font-size: 1.4rem;
-  padding: 2.5rem 1rem;
+  padding: 0 1rem;
+  line-height: 6rem;
   font-family: "HelveticaNeueBold", Arial, Helvetica, sans-serif !important;
 }
 .header .main-nav .nav > li:hover > a {
   cursor: pointer;
   background-color: #fff;
   color: #0c806b;
+}
+.header .main-nav .nav li .dropdown-toggle .icon {
+  position: relative;
+  margin-left:  0.5rem;
 }
 .header .main-nav .nav li a {
   display: block;
@@ -471,7 +496,7 @@ strong {
     margin-top: 0.5rem;
 }
 .header.small .main-nav .nav > li > a {
-  padding: 1.5rem;
+  line-height: 3.6rem;
   padding-right: 2rem;
 }
 .header.small .main-nav .nav li a::after {
@@ -617,17 +642,11 @@ strong {
   line-height: 1.2;
   margin-bottom: 0.5rem;
 }
-.appointment #agree-form li:before {
+.appointment #agree-form li .icon {
   position: absolute;
-  font: normal normal normal 14px/1 FontAwesome;
-  font-size: inherit;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  content: "\f0c8";
   color: #0c806b;
   font-size: 1rem;
-  left: -1rem;
+  left: -0.7rem;
   top: 0.3rem;
 }
 .appointment .form-check {
@@ -1189,9 +1208,8 @@ strong {
 .footer-nav .nav > li:hover a {
   color: #0c806b;
 }
-.footer-nav .dropdown-toggle::after {
+.footer-nav .nav > li a .icon {
   color: #0c806b !important;
-  top: 1rem;
 }
 .footer .more-nav li {
   display: block;
@@ -1288,20 +1306,25 @@ strong {
 .nav-mobile li a:focus {
     background: #a9cf48;
 }
-.nav-mobile li a.hassub:before {
+.nav-mobile li a .icon {
     top: 0.9rem;
     right: 5px;
     position: absolute;
-    width: 23px;
-    height: 23px;
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
     content: "\f107";
     color: #a9cf48;
     font-size: 1.8rem;
+    display: none;
+}
+
+.nav-mobile li a .icon.down {
+  display: block;
+}
+.nav-mobile li.active a .icon.down {
+  display: none;
+}
+.nav-mobile li.active a .icon.up {
+  display: block;
+  color: #fff;
 }
 /* End Mobile menu */
 .datepicker-days table {
@@ -1453,19 +1476,6 @@ strong {
   position: relative;
   padding: .75rem 0;
 }
-.health-check-tab .card-header:before {
-  position: absolute;
-  font: normal normal normal 14px/1 FontAwesome;
-  font-size: inherit;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  content: "\f067";
-  color: #0c806b;
-  font-size: 1.6rem;
-  right: 0;
-  top: 2.5rem;
-}
 .health-check-tab .card-body {
   padding: 3rem;
   background: #0c806b;
@@ -1473,20 +1483,7 @@ strong {
   position: relative;
   line-height: 1.2;
 }
-.health-check-tab .card-body:before {
-  background: #ffff;
-  position: absolute;
-  font: normal normal normal 14px/1 FontAwesome;
-  font-size: inherit;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  content: "\f068";
-  color: #0c806b;
-  font-size: 1.6rem;
-  right: 0;
-  top: -3.5rem;
-}
+
 .make-appointment-page {
   padding: 6rem 0
 }
@@ -1548,17 +1545,11 @@ strong {
   line-height: 1.2;
   margin-bottom: 0.5rem;
 }
-.make-appointment-page .make-form li:before {
+.make-appointment-page .make-form li .icon {
   position: absolute;
-  font: normal normal normal 14px/1 FontAwesome;
-  font-size: inherit;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  content: "\f0c8";
   color: #0c806b;
   font-size: 0.6rem;
-  left: -1rem;
+  left: -1.2rem;
   top: 0.7rem;
 }
 .make-appointment-page .make-form .form-check {
@@ -1624,19 +1615,6 @@ strong {
 .our-clinics  .card-header .btn-link {
   padding: .375rem 0;
 }
-.our-clinics .card-header:before {
-  position: absolute;
-  font: normal normal normal 14px/1 FontAwesome;
-  font-size: inherit;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  content: "\f067";
-  color: #0c806b;
-  font-size: 1.6rem;
-  right: 0;
-  top: 4.1rem;
-}
 .our-clinics .card-body {
   padding: 3rem;
   border-top: 1px solid #696a6a;
@@ -1646,20 +1624,6 @@ strong {
   margin-bottom: 2rem;
   line-height: 1.2;
   text-align: justify;
-}
-.our-clinics .card-body:before {
-  background: #ffff;
-  position: absolute;
-  font: normal normal normal 14px/1 FontAwesome;
-  font-size: inherit;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  content: "\f068";
-  color: #0c806b;
-  font-size: 1.6rem;
-  right: 0;
-  top: -3.5rem;
 }
 .our-clinics .card-body .address {
   color: #0c806b;
@@ -1702,37 +1666,10 @@ strong {
   position: relative;
   padding: .75rem 0;
 }
-.about-us .card-header:before {
-  position: absolute;
-  font: normal normal normal 14px/1 FontAwesome;
-  font-size: inherit;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  content: "\f067";
-  color: #0c806b;
-  font-size: 1.6rem;
-  right: 0;
-  top: 2.5rem;
-}
 .about-us .card-body {
   padding: 3rem;
   position: relative;
   border-top: 2px solid #0c806b;
-}
-.about-us .card-body:before {
-  background: #ffff;
-  position: absolute;
-  font: normal normal normal 14px/1 FontAwesome;
-  font-size: inherit;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  content: "\f068";
-  color: #0c806b;
-  font-size: 1.6rem;
-  right: 0;
-  top: -3.7rem;
 }
 .about-us .card-body .mission-vision .item .head-text {
   color: #0c806b;
@@ -1777,23 +1714,20 @@ strong {
   border-bottom: 1px dotted #0c806b;
   display: none;
 }
-.right-menu ul li a.hassub:before {
+.right-menu ul li a .icon {
   position: absolute;
-  font: normal normal normal 14px/1 FontAwesome;
-  font-size: inherit;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  content: "\f107";
-  color: #0c806b;
-  font-size: 1.6rem;
   right: 0;
+  display: none;
   top: 0.7rem;
-  -webkit-transition: all .25s ease-in-out;
-     -moz-transition: all .25s ease-in-out;
-      -ms-transition: all .25s ease-in-out;
-       -o-transition: all .25s ease-in-out;
-          transition: all .25s ease-in-out;
+}
+.right-menu ul li a .icon.down {
+  display: block;
+}
+.right-menu ul li.active a .icon.up {
+  display: block;
+}
+.right-menu ul li.active a .icon.down {
+  display: none;
 }
 .right-menu ul li.active a.hassub:before {
   -webkit-transform: rotate(180deg);;
