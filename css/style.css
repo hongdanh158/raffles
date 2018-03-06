@@ -496,7 +496,6 @@ strong {
 }
 .header.small .main-nav .nav > li > a {
   line-height: 3.6rem;
-  padding-right: 2rem;
 }
 .header.small .main-nav .nav li a::after {
     top: 1.4rem;
