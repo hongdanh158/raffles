@@ -99,6 +99,9 @@
 }	
 @media only screen and (max-width: 768px) {
 	html { font-size: 67%; /* Mac dinh ve gia tri 10px */ }
+	.nav-mobile li a {
+		font-size: 1.4rem;
+	}
 	.make-appointment-page .location .rows {
 		display: block !important
 	}
@@ -160,7 +163,19 @@
 	.header .search {
 		display: none;
 	}
+	.header > .container {
+		padding: 0;
+	}
+	.form-check-input {
+		margin-top: 0.5rem;
+	}
+	.appointment .form-check {
+		margin-bottom: 2rem;
+	}
 }
-@media only screen and (max-width: 360px) {
-	
+@media only screen and (max-width: 370px) {
+	.header .top .logo {
+		width: 13rem;
+		margin-top: 1rem;
+	}
 }
