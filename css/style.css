@@ -125,7 +125,8 @@ strong {
     box-shadow: 0 0 0 0.2rem rgba(12, 128, 107,.25);
 }
 .dropdown-menu {
-  box-shadow: 0 1rem 2rem rgba(0,0,0,0.3)
+  box-shadow: 0 1rem 2rem rgba(0,0,0,0.3);
+      z-index: 9999999999;
 } 
 .dropdown-item {
   font-size: 1.6rem;
