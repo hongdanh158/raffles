@@ -115,7 +115,16 @@ strong {
   padding: 0 0.75rem;
   height: 4rem !important;
   color: #fff;
+  border-radius: 0;
 }
+.form-control:focus {
+    color: #696a6a;
+    background-color: #fff;
+    border-color: #0c806b;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(12, 128, 107,.25);
+}
+
 .dropdown-item {
   font-size: 1.6rem;
   padding: 1rem 1.5rem;
@@ -265,6 +274,13 @@ strong {
     -o-transform: rotate(45deg);
     transform: rotate(45deg);
 }
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+  background: transparent;
+}
 .header {
   background-color: rgba(255, 255, 255, 0.4);
   position: fixed;
@@ -272,6 +288,11 @@ strong {
   left: 0;
   top: 0;
   z-index: 999999;
+  -webkit-transition: all .25s ease-in-out;
+     -moz-transition: all .25s ease-in-out;
+      -ms-transition: all .25s ease-in-out;
+       -o-transition: all .25s ease-in-out;
+          transition: all .25s ease-in-out;
 }
 .header .top .logo {
   display: inline-block;
@@ -312,21 +333,55 @@ strong {
   display: block;
 }
 .header .search {
-  margin-top: 0.75rem;
+  margin-top: 1.6rem;
+  position: relative;
+  z-index: 999999999;
 }
 .header .search .input {
-  display: none;
+  overflow: hidden;
+  width: 0;
+  height: 4.2rem;
+  position: absolute;
+  z-index: 99;
+  left: 0;
+  top: 0;
+  -webkit-transition: all .25s ease-in-out;
+     -moz-transition: all .25s ease-in-out;
+      -ms-transition: all .25s ease-in-out;
+       -o-transition: all .25s ease-in-out;
+          transition: all .25s ease-in-out;
 }
-.header .search .icon {
+.header .search .input input {
+  height: 4.2rem !important;
+  border-left: 1px solid #0c806b;
+  border-top: 1px solid #0c806b;
+  border-bottom: 1px solid #0c806b;
+}
+.header .search .icon, .header .search .btn-icon {
   display: inline-block;
   vertical-align: top;
   zoom: 1; /* Fix for IE7 */
   *display: inline; /* Fix for IE7 */
-  font-size: 30px;
+  font-size: 3rem;
   color: #0c806b;
   border: 1px solid #0c806b;
   margin-right: 1rem;
   padding: 0.5rem;
+}
+.header .search .btn-icon {
+  display: none;
+  background: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.header .search.show .btn-icon {
+  display: block;
+}
+.header .search.show .input {
+  width: 22rem;
+  left: -22rem;
 }
 .header .language {
   margin-top: 2.5rem;
@@ -361,7 +416,7 @@ strong {
   padding: 2.5rem 1rem;
   font-family: "HelveticaNeueBold", Arial, Helvetica, sans-serif !important;
 }
-.header .main-nav .nav li:hover a {
+.header .main-nav .nav > li:hover > a {
   cursor: pointer;
   background-color: #fff;
   color: #0c806b;
@@ -373,12 +428,39 @@ strong {
 }
 .header .main-nav .nav li a::after {
   top: 2.3rem;
+  -webkit-transition: all .25s ease-in-out;
+     -moz-transition: all .25s ease-in-out;
+      -ms-transition: all .25s ease-in-out;
+       -o-transition: all .25s ease-in-out;
+          transition: all .25s ease-in-out;
 }
 .header .main-nav .nav > li {
   border-right: 1px solid #fff;
 }
 .header .main-nav .nav > li:last-child {
   border: 0;
+}
+.header.small {
+  background-color: #fff;
+}
+.header.small .clinics {
+  margin-top: 0;
+}
+.header.small .top .logo {
+  width: 19.7rem;
+}
+.header.small .language {
+    margin-top: 1.2rem;
+}
+.header.small .search {
+    margin-top: 0.5rem;
+}
+.header.small .main-nav .nav > li > a {
+  padding: 1.5rem;
+  padding-right: 2rem;
+}
+.header.small .main-nav .nav li a::after {
+    top: 1.4rem;
 }
 .header .main-nav .nav ul {
   display: none;

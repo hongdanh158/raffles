@@ -24,7 +24,7 @@
 
   </head>
   <body>
-<div class="body" canvas="container">
+
     <header class="header">
       <div class="top container">
         <div id="cd-menu-trigger" class="js-toggle-right-slidebar js-menu-mobile">
@@ -44,12 +44,13 @@
           </div>
         </div>
         <div class="search float-right">
-          <form action="" class="search">
+          <form action="" class="form-search" id="#form-search">
             <a href="#" class="icon">
               <i class="fas fa-search"></i>
             </a>
+            <button href="#" class="btn-icon"><i class="fas fa-search"></i></button>
             <div class="input">
-              <input type="text" class="form-control">
+              <input type="text" class="form-control" placeholder="Nhập từ khóa tìm kiếm...">
             </div>
           </form>
         </div>
@@ -217,3 +218,4 @@
       </div>
       <!-- End Navbar -->
     </header>
+    <div class="body" canvas="container">

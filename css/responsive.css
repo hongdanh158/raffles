@@ -45,17 +45,17 @@
 	.appointment {
 		padding:  0 1.5rem;
 	    position: relative;
-	    top: -8.1rem;
+	    top: -5.5rem;
 	    left: 0;
 	    width: 100%;
 	    max-width: 100%;
 	}
-	.appointment .nav-tabs .nav-link .icon {
-		font-size: 3rem;
-		padding: 1rem 1.2rem;
-	}
 	.appointment .nav-tabs .nav-link {
-		padding: 1.5rem
+		padding: .5rem
+	}
+	.appointment .nav-tabs .nav-link .icon {
+		font-size: 2.4rem;
+		padding: 1rem 1.2rem;
 	}
 	.appointment .tab-pane {
 		background-color: transparent
@@ -102,18 +102,63 @@
 	.make-appointment-page .location .rows {
 		display: block !important
 	}
+	.footer-nav .nav > li {
+		width: 100%;
+		margin-right: 0;
+	}
+	.footer .top .left > span, .footer .top .left form {
+		display: block;
+		width: 100%;
+	}
+	.footer .top .left > span {
+		margin-bottom: 1rem;
+	}
+	.footer .top .left .search input, .footer .top .left .search .input-group-btn {
+		display: inline-block;
+		vertical-align: top;
+		zoom: 1; /* Fix for IE7 */
+		float: left;
+	}
 }
 
 @media only screen and (max-width: 700px) {
-	
-}
-@media only screen and (max-width: 540px) {
 	.header .top .logo {
 		width: 16.7rem;
-    	margin-top: 1.5rem;
+    	margin-top: 0.7rem;
 	}
+	.header .search {
+		margin-top: 0.2em;
+	}
+	.header .search .input input, .header .search.show .input {
+		height: 4.2rem !important;
+	}
+	.header .language {
+	    margin-top: 1.3rem;
+	}
+	.js-menu-mobile {
+		margin-top: 0.6rem;
+	}
+}
+@media only screen and (max-width: 540px) {
 	.head-space {
 		height: 6.8rem;
+	}
+	.clinics-map .heading h2, .services .heading, .healthcare-team .heading h2, .index-news .heading h2 {
+		font-size: 2.4rem;
+	}
+	footer .top .left {
+		margin-bottom: 1rem;
+	}
+	.footer .top .socical, .footer .top .left > span, .footer .bottom {
+		text-align: center;
+	}
+	.footer .dathongbao {
+		margin: 0 auto;
+	}
+}
+@media only screen and (max-width: 540px) {
+	.header .search {
+		display: none;
 	}
 }
 @media only screen and (max-width: 360px) {

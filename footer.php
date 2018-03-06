@@ -3,7 +3,7 @@
       <div class="top">
         <div class="container">
           <div class="row">
-            <div class="left col col-lg-8 col-sm-12">
+            <div class="left col-12 col-lg-8 col-sm-6">
               <span>Looking for something else?</span>
               <form action="#" class="frmSearch">
                 <div class="input-group search">
@@ -14,7 +14,7 @@
                 </div>
               </form>
             </div>
-            <div class="right col col-lg-4 col-sm-12">
+            <div class="right col-12 col-lg-4 col-sm-126">
               <div class="socical">
                 <a href="#"><i class="fab fa-facebook-f"></i></a>
                 <a href="#"><i class="fab fa-youtube"></i></a>

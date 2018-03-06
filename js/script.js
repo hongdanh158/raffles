@@ -1,3 +1,39 @@
+$(document).ready(function() {
+	var w = headerWidth();
+	$('.header').width(w);
+	function getScrollBarWidth () {
+	  var inner = document.createElement('p');
+	  inner.style.width = "100%";
+	  inner.style.height = "200px";
+
+	  var outer = document.createElement('div');
+	  outer.style.position = "absolute";
+	  outer.style.top = "0px";
+	  outer.style.left = "0px";
+	  outer.style.visibility = "hidden";
+	  outer.style.width = "200px";
+	  outer.style.height = "150px";
+	  outer.style.overflow = "hidden";
+	  outer.appendChild (inner);
+
+	  document.body.appendChild (outer);
+	  var w1 = inner.offsetWidth;
+	  outer.style.overflow = 'scroll';
+	  var w2 = inner.offsetWidth;
+	  if (w1 == w2) w2 = outer.clientWidth;
+
+	  document.body.removeChild (outer);
+
+	  return (w1 - w2);
+	};
+	function headerWidth() {
+		var winWidth = $(window).width();
+		var scroll = getScrollBarWidth();
+		var w = winWidth- scroll;
+		return w;
+	}
+});
+
 $(function() {
 	$('[data-toggle="tooltip"]').tooltip();
 	if ($('.datepicker').length) {
@@ -9,9 +45,11 @@ $(function() {
 	$( '.trigger-menu' ).on( 'click', function ( event ) {
 		if ($('.three-bars-icon').hasClass('close')) {
 			$('.three-bars-icon').removeClass('close');
+			$('.header').css('left', '0');
 		}
 		else {
 			$('.three-bars-icon').addClass('close');
+			$('.header').css('left', '255px');
 		}
 		// Stop default action and bubbling
 		event.stopPropagation();
@@ -270,5 +308,31 @@ $(function () {
 	      }
 	    );
 	  }
+	  $('.header .search .icon').click(function(event) {
+	  	if (!$('.header .search').hasClass('show')) {
+	  		$('.header .search').addClass('show');
+	  		$('body').prepend('<div class="overlay"></div>');
+	  		$('.header .container').prepend('<div class="overlay"></div>');
+	  	}
+	  });
+	  $('body').on('click', '.overlay', function(event) {
+	  	$('.header .search').removeClass('show');
+	  	$('.overlay').remove();
+	  });
+	  $('.body').scroll(function(){
+	    if ($(this).scrollTop() > 100) {
+	    	if (!$('.header').hasClass('small')) {
+	  			$('.header').addClass('small');
+	  		}
+	    } else {
+	    	if ($('.header').hasClass('small')) {
+	  			$('.header').removeClass('small');
+	  		}
+	    }
+	  });
+	  function header() {
+	  	if (!$('.header').hasClass('small')) {
 
+	  	}
+	  }
 })
