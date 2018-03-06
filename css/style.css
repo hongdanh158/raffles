@@ -124,7 +124,9 @@ strong {
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(12, 128, 107,.25);
 }
-
+.dropdown-menu {
+  box-shadow: 0 1rem 2rem rgba(0,0,0,0.3)
+} 
 .dropdown-item {
   font-size: 1.6rem;
   padding: 1rem 1.5rem;

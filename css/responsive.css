@@ -11,6 +11,9 @@
 	}
 }
 @media only screen and (max-width: 1024px) {
+	.header .language .dropdown-menu {
+		left: -27px !important;
+	}
 	.head-space {
 		height: 7.5rem;
 	}
