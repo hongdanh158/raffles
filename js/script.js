@@ -40,6 +40,12 @@ $(function() {
 	// Initialize Slidebars
 	var controller = new slidebars();
 	controller.init();
+	$( '.body' ).click(function(event) {
+		if ($('.three-bars-icon').hasClass('close')) {
+			controller.toggle( 'id-2');
+			$('.three-bars-icon').removeClass('close');
+		}
+	});
 	$( '.trigger-menu' ).on( 'click', function ( event ) {
 		if ($('.three-bars-icon').hasClass('close')) {
 			$('.three-bars-icon').removeClass('close');
@@ -140,22 +146,19 @@ $(document).ready(function() {
 	    );
 	}
 	if ($('.nav-mobile').length) {
-	    $(".nav-mobile li").each(function(){
+	    $(".nav-mobile li").each(function (index, obj) {
 	      if ($(this).has("ul").length) {
-	        $(this).find('a').eq(0).append('<span class="icon down"><i class="fas fa-angle-down"></i> </span> <span class="icon up"><i class="fas fa-angle-up"></i><span>')
+	        $(this).find('a').eq(0).append('<span class="icon down"><i class="fas fa-angle-down"></i> </span> <span class="icon up"><i class="fas fa-angle-up"></i><span>');
+	        $(obj).has("ul").find("a:first").attr('href', 'javascript:void(0)');
 	      };
 	    });
-	    $.each($(".nav-mobile li"), function (index, obj) {
-	      if ($(obj).has("ul").length) {
-	          $(obj).has("ul").find("a:first").attr('href', 'javascript:void(0)');
-	      }
-	    });
+	   
 	    $(".nav-mobile > li").click(
 	      function() {
-	        $(".nav-mobile  > li").removeClass('active');
+	        $(".nav-mobile > li").removeClass('active');
 	        $(this).addClass('active');
 	        if ($(this).has("ul").length) {
-	          $(".nav-mobile  > ul > li").not('.active').find('ul').slideUp(400);
+	          $(".nav-mobile > li").not('.active').find('ul').slideUp(400);
 	          $(this).find('ul').eq(0).slideDown(400);
 	        };
 	      }
@@ -163,20 +166,60 @@ $(document).ready(function() {
 	    $(".nav-mobile > li > ul > li ").click(
 	      function() {
 	        if ($(this).has("ul").length) {
-	        	$(this).addClass('active');
-	        	$(this).find('ul').eq(0).slideDown(400);
+	          $(".nav-mobile > li > ul > li ul").slideUp(400);
+	          $(this).find('ul').eq(0).slideDown(400);
 	        };
 	      }
 	    );
-	    $(".nav-mobile > li > ul > li > ul >li ").click(
+	     $(".nav-mobile > li > ul > li  > ul > li ").click(
 	      function() {
 	        if ($(this).has("ul").length) {
+	        	$(".nav-mobile > li > ul > li  > ul > li").removeClass('active');
 	        	$(this).addClass('active');
+	        	$(".nav-mobile > li > ul > li  > ul > li ul").slideUp(400);
 	        	$(this).find('ul').eq(0).slideDown(400);
 	        };
 	      }
 	    );
 	}
+	// if ($('.nav-mobile').length) {
+	//     $(".nav-mobile li").each(function(){
+	//       if ($(this).has("ul").length) {
+	//         $(this).find('a').eq(0).append('<span class="icon down"><i class="fas fa-angle-down"></i> </span> <span class="icon up"><i class="fas fa-angle-up"></i><span>')
+	//       };
+	//     });
+	//     $.each($(".nav-mobile li"), function (index, obj) {
+	//       if ($(obj).has("ul").length) {
+	//           $(obj).has("ul").find("a:first").attr('href', 'javascript:void(0)');
+	//       }
+	//     });
+	//     $(".nav-mobile > li").click(
+	//       function() {
+	//         $(".nav-mobile  > li").removeClass('active');
+	//         $(this).addClass('active');
+	//         if ($(this).has("ul").length) {
+	//           $(".nav-mobile  > ul > li").not('.active').find('ul').slideUp(400);
+	//           $(this).find('ul').eq(0).slideDown(400);
+	//         };
+	//       }
+	//     );
+	//     $(".nav-mobile > li > ul > li ").click(
+	//       function() {
+	//         if ($(this).has("ul").length) {
+	//         	$(this).addClass('active');
+	//         	$(this).find('ul').eq(0).slideDown(400);
+	//         };
+	//       }
+	//     );
+	//     $(".nav-mobile > li > ul > li > ul >li ").click(
+	//       function() {
+	//         if ($(this).has("ul").length) {
+	//         	$(this).addClass('active');
+	//         	$(this).find('ul').eq(0).slideDown(400);
+	//         };
+	//       }
+	//     );
+	// }
 	
 });
 $(function () {
