@@ -545,6 +545,7 @@ strong {
 .appointment .nav-tabs li {
   position: relative;
   margin-right: 1px;
+  z-index: 1;
 }
 .appointment .nav-tabs li:nth-child(2) .icon {
   background: #a4cd5a;
@@ -622,9 +623,24 @@ strong {
 .appointment .dcform.active {
   display: block
 }
+.nav-tabs {
+  position: relative;
+}
+.nav-tabs::after {
+  display: none;
+  content: '';
+  position: absolute;
+  width: 100%; 
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  z-index: 99999;
+}
+.appointment.hover .nav-tabs::after {
+  display: block
+}
 .appointment #agree-form {
-  font-size: 1.3rem;
-  line-height: 1.2;
   display: none;
 }
 .appointment #agree-form p {
@@ -649,6 +665,12 @@ strong {
 }
 .appointment .form-check {
   margin-bottom: 0.5rem;
+}
+.appointment.hover #agree-form {
+  display: block;
+}
+.appointment.hover #make-appointment {
+  display: none;
 }
 .index-three-box {
   margin-top: -15rem;

@@ -270,11 +270,9 @@ $(function () {
 	});
 
 	$('.appointment').hover(function() {
-		$('#make-appointment').css('display', 'none');
-		$('#agree-form').css('display', 'block');
+		$(this).addClass('hover');
 	}, function() {
-		$('#agree-form').css('display', 'none');
-		$('#make-appointment').css('display', 'block');
+		$(this).removeClass('hover');
 	});	
 
 	if ($('.right-menu').length) {
