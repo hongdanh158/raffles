@@ -434,7 +434,7 @@
     <div class="index-news">
       <div class="container">
         <div class="heading">
-          <h2>News and Information</h2>
+          <h2>Highlight</h2>
           <p>All our consultants are highly experienced in their fields and produce excellent outcomes for patients</p>
         </div>
         <div class="news-slider">
