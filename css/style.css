@@ -1765,3 +1765,42 @@ strong {
 .right-menu ul li a:hover {
   color: #a4cd5a;
 }
+
+.login-form {
+  padding: 4rem 0;
+  width: 100%;
+  max-width: 30rem;
+  margin: 0 auto;
+}
+.login-form .form-control {
+  margin-bottom: 2rem;
+}
+.login-form .title {
+    display: inline-block;
+    vertical-align: top;
+    zoom: 1;
+    font-size: 2.5rem;
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+    position: relative;
+    line-height: 1.2;
+    color: #0c806b;
+}
+.login-form .title:before {
+    bottom: -2rem;
+    left: -2.5%;
+    position: absolute;
+    content: '';
+    width: 105%;
+    border-bottom: 2px solid #0c806b;
+}
+.login-form .btn {
+  background-color: #0c806b;
+  border: 1px solid #0c806b;
+  color: #fff;
+}
+.login-form .btn:hover {
+  background-color: #13a087;
+  border: 1px solid #13a087;
+  color: #fff;
+}
