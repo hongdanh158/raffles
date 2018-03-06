@@ -128,6 +128,9 @@ strong {
   box-shadow: 0 1rem 2rem rgba(0,0,0,0.3);
       z-index: 9999999999;
 } 
+.footer-nav .dropdown-menu {
+  box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+} 
 .dropdown-item {
   font-size: 1.6rem;
   padding: 1rem 1.5rem;
