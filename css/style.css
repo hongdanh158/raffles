@@ -448,7 +448,7 @@ strong {
 .header .main-nav .nav > li > a {
   color: #fff;
   font-size: 1.4rem;
-  padding: 0 1rem;
+  padding: 0 0.5rem;
   line-height: 6rem;
   font-family: "HelveticaNeueBold", Arial, Helvetica, sans-serif !important;
 }
@@ -464,7 +464,6 @@ strong {
 .header .main-nav .nav li a {
   display: block;
   font-family: "HelveticaNeueBold", Arial, Helvetica, sans-serif !important;
-  padding-right: 2rem;
 }
 .header .main-nav .nav li a::after {
   top: 2.3rem;
