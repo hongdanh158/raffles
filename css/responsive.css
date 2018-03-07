@@ -1,6 +1,16 @@
 @media only screen and (max-width: 1366px) {
 	html { font-size: 55%}
-	
+	.appointment {
+		left: 5%;
+		top: 22%;
+	}
+	.head-space {
+	  height: 14rem;
+	  background-color: #fff;
+	}
+	.head-background {
+	  max-height: 37rem;
+	}
 }
 @media only screen and (max-width: 1280px) {
 	.appointment {
@@ -53,10 +63,10 @@
 	    width: 100%;
 	    max-width: 100%;
 	}
-	.appointment .nav-tabs .nav-link {
+	.appointment .nav-tabs li {
 		padding: .5rem
 	}
-	.appointment .nav-tabs .nav-link .icon {
+	.appointment .nav-tabs li .icon {
 		font-size: 2.4rem;
 		padding: 1rem 1.2rem;
 	}
@@ -99,11 +109,17 @@
 	.highlight .item .box {
 		margin-bottom: 2rem
 	}
+	.about-us {
+		padding: 3rem 0
+	}
 }	
 @media only screen and (max-width: 768px) {
 	html { font-size: 67%; /* Mac dinh ve gia tri 10px */ }
 	.nav-mobile li a {
 		font-size: 1.4rem;
+	}
+	.head-space {
+		height: 7.4rem;
 	}
 	.make-appointment-page .location .rows {
 		display: block !important
@@ -125,6 +141,15 @@
 		zoom: 1; /* Fix for IE7 */
 		float: left;
 	}
+	.healthcheck .heading {
+		padding: 1rem 0;
+	}
+	.healthcheck .heading:after {
+		top: 3.2rem;
+	}
+	.healthcheck .item {
+		margin-bottom: 2rem;
+	}
 }
 
 @media only screen and (max-width: 700px) {
@@ -139,15 +164,18 @@
 		height: 4.2rem !important;
 	}
 	.header .language {
-	    margin-top: 1.3rem;
+	    margin-top: 1rem;
 	}
 	.js-menu-mobile {
 		margin-top: 0.6rem;
 	}
+	.head-space {
+		height: 5.2rem;
+	}
 }
 @media only screen and (max-width: 540px) {
 	.head-space {
-		height: 6.8rem;
+		height: 5.3rem;
 	}
 	.clinics-map .heading h2, .services .heading, .healthcare-team .heading h2, .index-news .heading h2 {
 		font-size: 2.4rem;
@@ -180,5 +208,8 @@
 	.header .top .logo {
 		width: 13rem;
 		margin-top: 1rem;
+	}
+	.header .language .dropdown-menu {
+		left: 1rem;
 	}
 }

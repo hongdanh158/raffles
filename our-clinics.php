@@ -102,7 +102,7 @@
           <h2>Highlight</h2>
         </div>
         <div class="row">
-          <div class="col-lg-3">
+          <div class="col-lg-3 col-sm-6 col-12">
             <div class="item">
               <div class="box">
                 <a href="#" class="thumbnail">
@@ -113,7 +113,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3">
+          <div class="col-lg-3 col-sm-6 col-12">
             <div class="item">
               <div class="box">
                 <a href="#" class="thumbnail">
@@ -124,7 +124,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3">
+          <div class="col-lg-3 col-sm-6 col-12">
             <div class="item">
               <div class="box">
                 <a href="#" class="thumbnail">
@@ -135,7 +135,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3">
+          <div class="col-lg-3 col-sm-6 col-12">
             <div class="item">
               <div class="box">
                 <a href="#" class="thumbnail">

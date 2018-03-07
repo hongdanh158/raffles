@@ -45,54 +45,58 @@
         </div>
         <div class="search float-right">
           <form action="" class="form-search" id="#form-search">
-            <a href="#" class="icon">
+            <span class="icon">
               <i class="fas fa-search"></i>
-            </a>
+            </span>
             <button href="#" class="btn-icon"><i class="fas fa-search"></i></button>
             <div class="input">
               <input type="text" class="form-control" placeholder="Nhập từ khóa tìm kiếm...">
             </div>
           </form>
         </div>
-        <ul class="clinics float-right">
-          <li>
-            <a href="#">
-              <strong>HO CHI MINH</strong>
-              (028) 3824 0777
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <strong>HO CHI MINH</strong>
-              (028) 3824 0777
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <strong>HO CHI MINH</strong>
-              (028) 3824 0777
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <strong>HO CHI MINH</strong>
-              (028) 3824 0777
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <strong>HO CHI MINH</strong>
-              (028) 3824 0777
-            </a>
-          </li>
-        </ul>
+        <div class="clinics float-right">
+          <ul>
+            <li>
+              <a href="#">
+                <strong>HO CHI MINH</strong>
+                (028) 3824 0777
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <strong>HO CHI MINH</strong>
+                (028) 3824 0777
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <strong>HO CHI MINH</strong>
+                (028) 3824 0777
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <strong>HO CHI MINH</strong>
+                (028) 3824 0777
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <strong>HO CHI MINH</strong>
+                (028) 3824 0777
+              </a>
+            </li>
+          </ul>
+          <span class="icon"><i class="fas fa-phone"></i></span>
+        </div>
+        
       </div>
       <!-- Navbar-->
       <div class="main-nav">
         <div class="container">
           <ul class="nav justify-content-center">
             <li>
-              <a href="#">Our Services</a>
+              <a href="our-services.php" class="disabled">Our Services</a>
               <ul>
                 <li>
                   <a href="#">Action</a>
@@ -109,7 +113,7 @@
               </ul>
             </li>
             <li>
-              <a href="#">Health Check Programs</a>
+              <a href="health-check.php">Health Check Programs</a>
               <ul>
                 <li>
                   <a href="#">Action 2</a>
@@ -126,7 +130,7 @@
               </ul>
             </li>
             <li>
-              <a  href="#">Healthcare Team</a>
+              <a  href="health-care-team.php">Healthcare Team</a>
               <ul>
                 <li>
                   <a href="#">Action</a>
@@ -143,7 +147,7 @@
               </ul>
             </li>
             <li>
-              <a  href="#">Our Clinics</a>
+              <a  href="our-clinics.php">Our Clinics</a>
               <ul>
                 <li>
                   <a href="#">Action</a>
@@ -160,7 +164,7 @@
               </ul>
             </li>
             <li>
-              <a  href="#">Make Appointment</a>
+              <a  href="make-appointment.php">Make Appointment</a>
               <ul>
                 <li>
                   <a href="#">Action</a>
@@ -211,7 +215,7 @@
               </ul>
             </li>
             <li>
-              <a  href="#">About Us</a>
+              <a  href="about-us.php">About Us</a>
             </li>
           </ul>
         </div>

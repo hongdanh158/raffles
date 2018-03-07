@@ -92,85 +92,59 @@ $(function() {
 });
 
 $(document).ready(function() {
-	//Header script
-	$(".header .nav li").each(function(){
-      if ($(this).has("ul").length) {
-        $(this).find('a').eq(0).append('<span class="icon down"><i class="fas fa-angle-down"></i></span>')
-      };
-    });
-
-    //Menu hover script
-	$('.header .nav li').hover(
-      function() {
-          $('.header .nav li').removeClass('activeX');
-          $(this).find('ul').eq(0).stop(false, true).slideDown(200);
-          $(this).parent().css('overflow', 'visible');
-      },
-      function() {
-          $('.header .nav li').removeClass('activeX');
-          $(this).find('ul').eq(0).stop(false, true).slideUp(200);
-      }
-    );
-    function addOverlay(parent) {
-    	if (!$(parent + ' .overlay').length) {
-  			$(parent).prepend('<div class="overlay"></div>');
-  		}
-    }
-    function removeOverlay(parent) {
-    	if ($(parent + ' .overlay').length) {
-  			$(parent + ' .overlay').remove();
-  		}
-    }
-	$('.header .search .icon').click(function(event) {
-	  	if (!$('.header .search').hasClass('show')) {
-	  		$('.header .search').addClass('show');
-	  		addOverlay('body');
-	  		addOverlay('.header .container');
-	  	}
-	});
-	$('body').on('click', '.overlay', function(event) {
-	  	$('.header .search').removeClass('show');
-	  	$('.header .clinics').removeClass('show');
-	  	removeOverlay('body');
-	  	removeOverlay('.header .container');
-	});
-	$('.header .clinics .icon').click(function() {
-		$('.header .clinics').addClass('show');
-		addOverlay('body');
-	  	addOverlay('.header .container');
-	});
-	$('.body').scroll(function(){
-		if ($(this).scrollTop() > 100) {
-			$('.header').css('background-color', '#ffffff');
-			if ($(window).width() > 1024) {
-				if (!$('.header').hasClass('small')) {
-		  			$('.header').addClass('small');
-		  		}
-			}
-		} else {
-			if ($('.header').hasClass('small')) {
-					$('.header').removeClass('small');
-				}
-				$('.header').css('background-color', 'rgba(255, 255, 255, 0.4)');
-		}
-	});
-
-    //footer script
-    $('.footer .nav').find('li').find('a').addClass('.nav-link');
-	$('.footer .nav li:has(ul)').addClass('dropdown');
-	$('.footer .nav li:has(ul) > a').addClass('dropdown-toggle').attr({
+	$('.nav').find('li').find('a').addClass('nav-link');
+	$('.nav li:has(ul)').addClass('dropdown');
+	$('.nav li:has(ul) > a').addClass('dropdown-toggle').attr({
 		'data-toggle': 'dropdown',
 		'aria-haspopup': 'true',
 		'aria-expanded' : 'false'
 	});
-	$(".footer .nav li").each(function(){
+	$(".nav li").each(function(){
       if ($(this).has("ul").length) {
         $(this).find('ul').eq(0).addClass('dropdown-menu');
         $(this).find('li').addClass('dropdown-item');
       };
     });
-    
-    //Mobile menu script
+	if ($('.left-menu').length) {
+	    $(".left-menu ul li").each(function(){
+	      if ($(this).has("ul").length) {
+	        $(this).find('a').eq(0).append('<span class="icon"><i class="fas fa-square"></i></span>');
+	      };
+	    });
+	    $.each($(".left-menu ul li"), function (index, obj) {
+	      if ($(obj).has("ul").length) {
+	          $(obj).has("ul").find("a:first").attr('href', 'javascript:void(0)');
+	      }
+	    });
+	    $(".left-menu > ul > li").click(
+	      function() {
+	        $(".left-menu > ul > li").removeClass('active');
+	        $(this).addClass('active');
+	        if ($(this).has("ul").length) {
+	          $(".left-menu  > ul > li").not('.active').find('ul').slideUp(400);
+	          $(this).find('ul').eq(0).slideDown(400);
+	        };
+	      }
+	    );
+	    $(".left-menu > ul > li > ul > li ").click(
+	      function() {
+	        if ($(this).has("ul").length) {
+	          $(".left-menu > ul > li > ul > li ul").slideUp(400);
+	          $(this).find('ul').eq(0).slideDown(400);
+	        };
+	      }
+	    );
+	     $(".left-menu > ul > li > ul > li  > ul > li ").click(
+	      function() {
+	        if ($(this).has("ul").length) {
+	        	$(".left-menu > ul > li > ul > li  > ul > li").removeClass('active');
+	        	$(this).addClass('active');
+	        	$(".left-menu > ul > li > ul > li  > ul > li ul").slideUp(400);
+	        	$(this).find('ul').eq(0).slideDown(400);
+	        };
+	      }
+	    );
+	}
 	if ($('.nav-mobile').length) {
 	    $(".nav-mobile li").each(function (index, obj) {
 	      if ($(this).has("ul").length) {
@@ -178,6 +152,7 @@ $(document).ready(function() {
 	        $(obj).has("ul").find("a:first").attr('href', 'javascript:void(0)');
 	      };
 	    });
+	   
 	    $(".nav-mobile > li").click(
 	      function() {
 	      	if ($(this).hasClass('active')) {
@@ -209,50 +184,6 @@ $(document).ready(function() {
 	        	$(this).addClass('active');
 	        	$(".nav-mobile > li > ul > li  > ul > li ul").slideUp(400);
 	        	$(this).find('ul').eq(0).slideDown(400);
-	        };
-	      }
-	    );
-	}
-	// Appointment form
-	$('.find-doctor').click(function(event) {
-		var cls = "." + $(this).attr('active');
-		$('.dcform').fadeOut(400);
-		$(cls).fadeIn(400);
-	});
-
-	$('.appointment').hover(function() {
-		$(this).addClass('hover');
-	}, function() {
-		$(this).removeClass('hover');
-	});
-
-	//Right menu about us page
-	if ($('.right-menu').length) {
-	    $(".right-menu ul li").each(function(){
-	      if ($(this).has("ul").length) {
-	        $(this).find('a').eq(0).append('<span class="icon down"><i class="fas fa-angle-down"></i> </span> <span class="icon up"><i class="fas fa-angle-up"></i><span>')
-	      };
-	    });
-	    $.each($(".right-menu ul li"), function (index, obj) {
-	      if ($(obj).has("ul").length) {
-	          $(obj).has("ul").find("a:first").attr('href', 'javascript:void(0)');
-	      }
-	    });
-	    $(".right-menu > ul > li").click(
-	      function() {
-	        $(".right-menu > ul > li").removeClass('active');
-	        $(this).addClass('active');
-	        if ($(this).has("ul").length) {
-	          $(".right-menu  > ul > li").not('.active').find('ul').slideUp(400);
-	          $(this).find('ul').eq(0).slideDown(400);
-	        };
-	      }
-	    );
-	    $(".right-menu > ul > li > ul > li ").click(
-	      function() {
-	        if ($(this).has("ul").length) {
-	          $(".right-menu   > ul > li > ul > li ul").slideUp(400);
-	          $(this).find('ul').eq(0).slideDown(400);
 	        };
 	      }
 	    );
@@ -335,7 +266,74 @@ $(function () {
 			 ]
 		});
 	}
+	$('.find-doctor').click(function(event) {
+		var cls = "." + $(this).attr('active');
+		$('.dcform').fadeOut(400);
+		$(cls).fadeIn(400);
+	});
 
+	$('.appointment').hover(function() {
+		$(this).addClass('hover');
+	}, function() {
+		$(this).removeClass('hover');
+	});	
+
+	if ($('.right-menu').length) {
+	    $(".right-menu ul li").each(function(){
+	      if ($(this).has("ul").length) {
+	        $(this).find('a').eq(0).append('<span class="icon down"><i class="fas fa-angle-down"></i> </span> <span class="icon up"><i class="fas fa-angle-up"></i><span>')
+	      };
+	    });
+	    $.each($(".right-menu ul li"), function (index, obj) {
+	      if ($(obj).has("ul").length) {
+	          $(obj).has("ul").find("a:first").attr('href', 'javascript:void(0)');
+	      }
+	    });
+	    $(".right-menu > ul > li").click(
+	      function() {
+	        $(".right-menu > ul > li").removeClass('active');
+	        $(this).addClass('active');
+	        if ($(this).has("ul").length) {
+	          $(".right-menu  > ul > li").not('.active').find('ul').slideUp(400);
+	          $(this).find('ul').eq(0).slideDown(400);
+	        };
+	      }
+	    );
+	    $(".right-menu > ul > li > ul > li ").click(
+	      function() {
+	        if ($(this).has("ul").length) {
+	          $(".right-menu   > ul > li > ul > li ul").slideUp(400);
+	          $(this).find('ul').eq(0).slideDown(400);
+	        };
+	      }
+	    );
+	  }
+	  $('.header .search .icon').click(function(event) {
+	  	if (!$('.header .search').hasClass('show')) {
+	  		$('.header .search').addClass('show');
+	  		$('body').prepend('<div class="overlay"></div>');
+	  		$('.header .container').prepend('<div class="overlay"></div>');
+	  	}
+	  });
+	  $('body').on('click', '.overlay', function(event) {
+	  	$('.header .search').removeClass('show');
+	  	$('.overlay').remove();
+	  });
+	  $('.body').scroll(function(){
+	    if ($(this).scrollTop() > 100) {
+	    	$('.header').css('background-color', '#ffffff');
+	    	if ($(window).width() > 1024) {
+	    		if (!$('.header').hasClass('small')) {
+		  			$('.header').addClass('small');
+		  		}
+	    	}
+	    } else {
+	    	if ($('.header').hasClass('small')) {
+	  			$('.header').removeClass('small');
+	  		}
+	  		$('.header').css('background-color', 'rgba(255, 255, 255, 0.4)');
+	    }
+	  });
 	$(window).resize(function(){
         clearTimeout(window.resizeEvt);
         window.resizeEvt = setTimeout(function(){
