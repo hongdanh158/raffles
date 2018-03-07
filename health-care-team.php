@@ -9,8 +9,8 @@
           <h2>Healthcare Team</h2>
           <p>Our healthcare Team comprises of expatriate and national doctors, nurses and specialists, offering primary care, diagnostics and emergency care. Language capabilities include English, Vietnamese,Japanese, Korean, French, Chinese and Russian.</p>
         </div>
-        <div class="doctors-slider">
-          <div class="item">
+        <div class="row" id="list-doctors">
+          <div class="item col-12 col-sm-6 col-lg-3">
             <div class="box">
               <a href="#" class="thumbnail">
                 <img src="images/ex/doctors/d1.jpg" alt="">
@@ -43,7 +43,7 @@
               </div>
             </div>
           </div>
-          <div class="item">
+          <div class="item col-12 col-sm-6 col-lg-3">
             <div class="box">
               <a href="#" class="thumbnail">
                 <img src="images/ex/doctors/d2.jpg" alt="">
@@ -76,7 +76,7 @@
               </div>
             </div>
           </div>
-          <div class="item">
+          <div class="item col-12 col-sm-6 col-lg-3">
             <div class="box">
               <a href="#" class="thumbnail">
                 <img src="images/ex/doctors/d3.jpg" alt="">
@@ -109,7 +109,7 @@
               </div>
             </div>
           </div>
-          <div class="item">
+          <div class="item col-12 col-sm-6 col-lg-3">
             <div class="box">
               <a href="#" class="thumbnail">
                 <img src="images/ex/doctors/d4.jpg" alt="">
@@ -142,7 +142,40 @@
               </div>
             </div>
           </div>
-          <div class="item">
+          <div class="item col-12 col-sm-6 col-lg-3">
+            <div class="box">
+              <a href="#" class="thumbnail">
+                <img src="images/ex/doctors/d1.jpg" alt="">
+              </a>
+              <h3 class="name"><a href="#">Dr. Huynh Chu</a></h3>
+              <p class="title">General Practitioner</p>
+            </div>
+            <div class="info">
+              <div class="box">
+                <div class="in">
+                  <span class="icon"><i class="fas fa-cogs"></i></span>
+                  <p class="line-1">Graduated from Medical school</p>
+                  <p class="line-2">Vietnam, 2001</p>
+                </div>
+                <div class="in">
+                  <span class="icon"><i class="fas fa-graduation-cap"></i></span>
+                  <p class="line-1">General Practice</p>
+                  <p class="line-2">Healthcheck & Vaccines</p>
+                </div>
+                <div class="in">
+                  <span class="icon image"><img src="images/degree.png" alt=""></span>
+                  <p class="line-1">Degree</p>
+                  <p class="line-2">Consectetur Adipiscing Elit</p>
+                </div>
+                <div class="in">
+                  <span class="icon image"><img src="images/languages.png" alt=""></span>
+                  <p class="line-1">Language</p>
+                  <p class="line-2">Consectetur Adipiscing Elit</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item col-12 col-sm-6 col-lg-3">
             <div class="box">
               <a href="#" class="thumbnail">
                 <img src="images/ex/doctors/d2.jpg" alt="">
@@ -175,7 +208,7 @@
               </div>
             </div>
           </div>
-          <div class="item">
+          <div class="item col-12 col-sm-6 col-lg-3">
             <div class="box">
               <a href="#" class="thumbnail">
                 <img src="images/ex/doctors/d3.jpg" alt="">
@@ -208,7 +241,7 @@
               </div>
             </div>
           </div>
-          <div class="item">
+          <div class="item col-12 col-sm-6 col-lg-3">
             <div class="box">
               <a href="#" class="thumbnail">
                 <img src="images/ex/doctors/d4.jpg" alt="">
@@ -241,6 +274,9 @@
               </div>
             </div>
           </div>
+        </div> <br>
+        <div class="text-center">
+          <div class="btn btn-primary">Xem thêm <i class="fas fa-angle-double-down"></i></div>
         </div>
       </div>
     </div>

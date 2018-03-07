@@ -114,7 +114,7 @@
 	}
 }	
 @media only screen and (max-width: 768px) {
-	html { font-size: 67%; /* Mac dinh ve gia tri 10px */ }
+	html { font-size: 64%;}
 	.nav-mobile li a {
 		font-size: 1.4rem;
 	}

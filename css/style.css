@@ -538,9 +538,13 @@ strong {
 .header .nav > li > a {
   color: #fff;
   font-size: 1.4rem;
-  padding: 0 0.5rem;
-  line-height: 6rem;
+  padding: 2rem 0.5rem;
   font-family: "HelveticaNeueBold", Arial, Helvetica, sans-serif !important;
+ -webkit-transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+     -ms-transition: all .25s ease-in-out;
+      -o-transition: all .25s ease-in-out;
+         transition: all .25s ease-in-out;
 }
 .header .nav > li:hover > a {
   cursor: pointer;
@@ -556,6 +560,11 @@ strong {
 .header .nav li a {
   display: block;
   font-family: "HelveticaNeueBold", Arial, Helvetica, sans-serif !important;
+  -webkit-transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+     -ms-transition: all .25s ease-in-out;
+      -o-transition: all .25s ease-in-out;
+         transition: all .25s ease-in-out;
 }
 
 .header .nav li a .icon {
@@ -612,19 +621,29 @@ strong {
   margin-top: 0;
 }
 .header.small .top .logo {
-  width: 19.7rem;
+  width: 15.7rem;
 }
 .header.small .language {
-    margin-top: 1.2rem;
+    margin-top: 0.7rem;
 }
 .header.small .search {
     margin-top: 0.5rem;
+    font-size: 2rem;
 }
-.header.small .main-nav .nav > li > a {
-  line-height: 3.6rem;
+.header.small .search .icon, .header.small .search .btn-icon {
+    font-size: 1.9rem;
 }
-.header.small .main-nav .nav li a::after {
-    top: 1.4rem;
+.header.small .search .input input {
+  height: 3.1rem !important;
+}
+.header.small .nav > li > a {
+  padding: 1rem 0.5rem;
+}
+.header.small .clinics .icon  {
+  font-size: 2rem;
+}
+.header.small .clinics li a {
+  padding: 0.5rem 1rem
 }
 .appointment {
   position: absolute;
@@ -1140,6 +1159,9 @@ strong {
   text-align: center;
   background-color: #ffffff;
 
+}
+.services .item .box p {
+  padding: 0 1.5rem;
 }
 .services .item .box .thumbnail {
   display: block;
@@ -1910,4 +1932,24 @@ strong {
   background-color: #13a087;
   border: 1px solid #13a087;
   color: #fff;
+}
+.scrollToTop {
+    position: fixed;
+    bottom: 1rem;
+    right: 2.5rem;
+    background: rgba(0, 128, 102, 0.6);
+    color: rgba(255, 255, 255, 1);
+    padding: 1.5rem;
+    z-index: 999;
+    /* display: none; */
+    cursor: pointer;
+}
+.scrollToTop:before {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  content: '';
+  width: 90%;
+  height: 90%;
+  border: 1px solid rgba(255, 255, 255, 1);
 }

@@ -187,6 +187,7 @@
     </a>
     <div class="content"></div>
   </div>
+  <div class="scrollToTop"><i class="fas fa-arrow-up"></i></div>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script defer src="js/fontawesome-all.min.js"></script>
