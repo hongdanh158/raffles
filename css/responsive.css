@@ -2,11 +2,10 @@
 	html { font-size: 55%}
 	.appointment {
 		left: 5%;
-		top: 22%;
+		top: 26%;
 	}
 	.head-space {
 	  height: 14rem;
-	  background-color: #fff;
 	}
 	.head-background {
 	  max-height: 37rem;

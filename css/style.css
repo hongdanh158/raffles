@@ -233,7 +233,11 @@ strong {
   width: 100%;
   text-align: left;
 }
-
+.breadcrumb {
+  background: transparent;
+  padding: 0;
+  padding-top: 2rem;
+}
 /*End Overwrite Bootstrap CSS*/
 .js-menu-mobile {
   display: none;
@@ -652,6 +656,11 @@ strong {
   left: 7.5%;
   width: 100%;
   max-width: 50rem;
+  -webkit-transition: all .25s ease-in-out;
+     -moz-transition: all .25s ease-in-out;
+      -ms-transition: all .25s ease-in-out;
+       -o-transition: all .25s ease-in-out;
+          transition: all .25s ease-in-out;
 }
 .appointment .nav-tabs li{
   border:  0;
@@ -749,6 +758,15 @@ strong {
 }
 .appointment .dcform.active {
   display: block
+}
+.appointment .col-lg-6:nth-child(2n+1) {
+  padding-right: 0.5rem;
+}
+.appointment .col-lg-6:nth-child(2n) {
+  padding-left: 0.5rem;
+}
+.dcform .col-lg-6 {
+  padding: 0 15px !important;
 }
 .nav-tabs {
   position: relative;
@@ -893,7 +911,7 @@ strong {
 }
 .healthcare-team.sub-page {
   background-color: #fff;
-  padding-top: 3rem;
+  padding-top: 0;
 }
 .healthcare-team .heading {
   text-align: center;
@@ -901,7 +919,7 @@ strong {
 }
 .healthcare-team.sub-page .heading {
   text-align: left;
-  padding: 0 1.5rem;
+  padding: 0 0;
 }
 .healthcare-team .heading h2 {
   font-size: 3rem;
@@ -1547,6 +1565,13 @@ strong {
 .head-space {
   height: 14.5rem;
   background-color: #fff;
+  -webkit-transition: all .25s ease-in-out;
+     -moz-transition: all .25s ease-in-out;
+      -ms-transition: all .25s ease-in-out;
+       -o-transition: all .25s ease-in-out;
+          transition: all .25s ease-in-out;
+}
+.head-space.small {
 }
 .head-background {
   overflow: hidden;
@@ -1557,7 +1582,7 @@ strong {
   width: 100%;
 }
 .health-check {
-  padding: 6rem 0
+  padding-bottom: 1rem;
 }
 .health-check .item {
   text-align: center;
@@ -1578,11 +1603,12 @@ strong {
   min-height: 74px;
 }
 .health-check .item .name a {
+  padding: 1rem;
   display: block;
   line-height: 100%;
 }
 .health-check-tab {
-  padding: 6rem 0
+  padding-bottom: 6rem;
 }
 .health-check-tab .heading {
   font-size: 3.6rem;
@@ -1637,9 +1663,11 @@ strong {
   position: relative;
   line-height: 1.2;
 }
-
+.health-check.news-information .item .name {
+  min-height: 0;
+}
 .make-appointment-page {
-  padding: 6rem 0
+  padding-bottom: 6rem;
 }
 .make-appointment-page .heading {
   font-size: 3.6rem;
@@ -1728,7 +1756,7 @@ strong {
 }
 
 .our-clinics {
-  padding: 6rem 0
+  padding-bottom: 6rem;
 }
 .our-clinics .heading {
   font-size: 3.6rem;
@@ -1784,7 +1812,7 @@ strong {
 }
 
 .about-us {
-  padding: 6rem 0
+  padding-bottom: 6rem;
 }
 .about-us .heading {
   font-size: 3.6rem;
@@ -1952,4 +1980,16 @@ strong {
   width: 90%;
   height: 90%;
   border: 1px solid rgba(255, 255, 255, 1);
+}
+.news-information {
+  padding-top: 0;
+}
+.news-information .heading {
+  font-size: 3rem;
+  padding: 4rem 0;
+  color: #0c806b;
+  font-family: "HelveticaNeueLight", Arial, Helvetica, sans-serif;
+}
+.health-check .breadcrumb, .health-check-tab .breadcrumb, .healthcare-team.sub-page .breadcrumb, .our-clinics .breadcrumb, .make-appointment-page .breadcrumb, .about-us .breadcrumb {
+  margin-bottom: 4rem;
 }

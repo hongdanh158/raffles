@@ -24,7 +24,6 @@
 
   </head>
   <body>
-
     <header class="header">
       <div class="top container">
         <div id="cd-menu-trigger" class="js-toggle-right-slidebar js-menu-mobile">
@@ -198,7 +197,7 @@
               </ul>
             </li>
             <li>
-              <a  href="#">News & Information</a>
+              <a  href="news.php">News & Information</a>
               <ul>
                 <li>
                   <a href="#">Action</a>

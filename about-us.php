@@ -5,6 +5,10 @@
     </div>
     <div class="about-us">
       <div class="container">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#"><i class="fas fa-home"></i> Raffles Medical</a></li>
+            <li class="breadcrumb-item active">About us</li>
+        </ol>
         <div class="heading">
           <h2>Vision & Philosophy</h2>
         </div>

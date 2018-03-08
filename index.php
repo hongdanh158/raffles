@@ -24,7 +24,7 @@
         <div class="tab-content">
           <div id="tab1" class="tab-pane active">
             <div class="content">
-              <form action="" method="post" id="make-appointment"">
+              <form action="" method="post" id="make-appointment">
                 <div class="row col col-lg-12">All fields marked with * are required</div>
                 <div class="row">
                   <div class="col-lg-12">
@@ -191,7 +191,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="row">
+                <div class="row" style="margin-top: 1rem;">
                   <div class="col-lg-9">
                     <a href="#" class="blue-text" style="font-size: 1.6rem !important; display: block; line-height: 1.5;"><i class="far fa-bookmark" ></i> Notes (0 Doctors)</a>
                   </div>

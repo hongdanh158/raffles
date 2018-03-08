@@ -1,49 +1,52 @@
 <?php include('header.php') ?>
     <div class="head-space"></div>
     <div class="head-background">
-      <img src="images/ex/slider/slider-4.jpg" alt="">
+      <img src="images/ex/slider/slider-5.jpg" alt="">
     </div>
-    <div class="health-check">
+    <div class="health-check news-information">
       <div class="container">
         <ol class="breadcrumb">
           <li class="breadcrumb-item"><a href="#"><i class="fas fa-home"></i> Raffles Medical</a></li>
-          <li class="breadcrumb-item active">Our Services</li>
+          <li class="breadcrumb-item active">News & Information</li>
         </ol>
+        <div class="heading">
+          <h2>News & Information</h2>
+        </div>
         <div class="row">
           <div class="col-lg-4 col-sm-6">
             <div class="item">
               <a href="#" class="thumbnail"><img src="images/ex/1.jpg" alt=""></a>
-              <h2 class="name d-flex justify-content-center"><a href="our-services-tab.php">Specialists</h2>
+              <h2 class="name"><a href="health-check-tab.php">health tip</a></h2>
             </div>
           </div>
           <div class="col-lg-4 col-sm-6">
             <div class="item">
               <a href="#" class="thumbnail"><img src="images/ex/2.jpg" alt=""></a>
-              <h2 class="name d-flex justify-content-center"><a href="our-services-tab.php">Vaccinations</a></h2>
+              <h2 class="name"><a href="health-check-tab.php">news & event</a></h2>
             </div>
           </div>
           <div class="col-lg-4 col-sm-6">
             <div class="item">
               <a href="#" class="thumbnail"><img src="images/ex/3.jpg" alt=""></a>
-              <h2 class="name d-flex justify-content-center"><a href="our-services-tab.php">Fully operational emergency room</a></h2>
+              <h2 class="name"><a href="health-check-tab.php">Customer feedback</a></h2>
             </div>
           </div>
           <div class="col-lg-4 col-sm-6">
             <div class="item">
               <a href="#" class="thumbnail"><img src="images/ex/4.jpg" alt=""></a>
-              <h2 class="name d-flex justify-content-center"><a href="our-services-tab.php">Direct billing with insurance</a></h2>
+              <h2 class="name"><a href="health-check-tab.php">Career opportunity</a></h2>
             </div>
           </div>
           <div class="col-lg-4 col-sm-6">
             <div class="item">
               <a href="#" class="thumbnail"><img src="images/ex/5.jpg" alt=""></a>
-              <h2 class="name d-flex justify-content-center"><a href="our-services-tab.php">Direct billing with insurance</a></h2>
+              <h2 class="name"><a href="health-check-tab.php">At vero eos et</a></h2>
             </div>
           </div>
           <div class="col-lg-4 col-sm-6">
             <div class="item">
               <a href="#" class="thumbnail"><img src="images/ex/6.jpg" alt=""></a>
-              <h2 class="name d-flex justify-content-center"><a href="our-services-tab.php">Raffles membership program</a></h2>
+              <h2 class="name"><a href="health-check-tab.php">accusamus</a></h2>
             </div>
           </div>
         </div>

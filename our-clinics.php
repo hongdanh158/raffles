@@ -5,6 +5,10 @@
     </div>
     <div class="our-clinics">
       <div class="container">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#"><i class="fas fa-home"></i> Raffles Medical</a></li>
+            <li class="breadcrumb-item active">Our Clinics</li>
+          </ol>
           <div id="accordion" class="accordion">
             <div class="card">
               <div class="card-header" id="headingOne">
