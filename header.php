@@ -8,8 +8,8 @@
     <title>Reffles Group</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/icomoon.css" rel="stylesheet">
-    <link href="css/style.css?v=1" rel="stylesheet">
-    <link href="css/responsive.css?v=1" rel="stylesheet">
+    <link href="css/style.css?v=2" rel="stylesheet">
+    <link href="css/responsive.css?v=2" rel="stylesheet">
     <script src="js/jquery.min.js"></script>
 
     <!-- slidebar -->
@@ -34,7 +34,7 @@
         </a>
         <div class="dropdown language float-right">
           <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            EN/VN/JP
+            Language
           </button>
           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
             <a class="dropdown-item" href="#"><img src="images/languages/us.png" alt=""> English</a>
@@ -57,32 +57,26 @@
           <ul>
             <li>
               <a href="#">
-                <strong>HO CHI MINH</strong>
+                <strong>HO CHI MINH:</strong>
                 (028) 3824 0777
               </a>
             </li>
             <li>
               <a href="#">
-                <strong>HO CHI MINH</strong>
-                (028) 3824 0777
+                <strong>Hanoi:</strong>
+                (024) 39340666
               </a>
             </li>
             <li>
               <a href="#">
-                <strong>HO CHI MINH</strong>
-                (028) 3824 0777
+                <strong>Vung Tau:</strong>
+                 (0254)3858776
               </a>
             </li>
             <li>
               <a href="#">
-                <strong>HO CHI MINH</strong>
-                (028) 3824 0777
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <strong>HO CHI MINH</strong>
-                (028) 3824 0777
+                <strong>Japanese Hanoi:</strong>
+                1900545506
               </a>
             </li>
           </ul>

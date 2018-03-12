@@ -259,96 +259,6 @@
       </div>
       </div>
     </div>
-    <div class="healthcare-team">
-      <div class="container">
-        <div class="heading">
-          <h2>Healthcare Team</h2>
-          <p>Our healthcare Team comprises of expatriate and national doctors, nurses and specialists, offering primary care, diagnostics and emergency care. Language capabilities include English, Vietnamese,Japanese, Korean, French, Chinese and Russian.</p>
-        </div>
-        <div class="doctors-slider">
-          <div class="item">
-            <div class="box">
-              <a href="#" class="thumbnail">
-                <img src="images/ex/doctors/d1.jpg" alt="">
-              </a>
-              <h3 class="name"><a href="#">Dr. Huynh Chu</a></h3>
-              <p class="title">General Practitioner</p>
-              <a href="#" class="btn btn-primary">Read more</a>
-            </div>
-          </div>
-          <div class="item">
-            <div class="box">
-              <a href="#" class="thumbnail">
-                <img src="images/ex/doctors/d2.jpg" alt="">
-              </a>
-              <h3 class="name"><a href="#">dr. nguyen thi hong anh</a></h3>
-              <p class="title">General Practitioner Obstetrician and Gynecologist</p>
-              <a href="#" class="btn btn-primary">Read more</a>
-            </div>
-          </div>
-          <div class="item">
-            <div class="box">
-              <a href="#" class="thumbnail">
-                <img src="images/ex/doctors/d3.jpg" alt="">
-              </a>
-              <h3 class="name"><a href="#">Dr. Truong Hoang Phu Phi</a></h3>
-              <p class="title">Medical Director</p>
-              <a href="#" class="btn btn-primary">Read more</a>
-            </div>
-          </div>
-          <div class="item">
-            <div class="box">
-              <a href="#" class="thumbnail">
-                <img src="images/ex/doctors/d4.jpg" alt="">
-              </a>
-              <h3 class="name"><a href="#">dr. nguyen do nhu quynh</a></h3>
-              <p class="title">General Practitioner Health Check Doctor Internal Medicine</p>
-              <a href="#" class="btn btn-primary">Read more</a>
-            </div>
-          </div>
-          <div class="item">
-            <div class="box">
-              <a href="#" class="thumbnail">
-                <img src="images/ex/doctors/d2.jpg" alt="">
-              </a>
-              <h3 class="name"><a href="#">dr. nguyen thi hong anh</a></h3>
-              <p class="title">General Practitioner Obstetrician and Gynecologist</p>
-              <a href="#" class="btn btn-primary">Read more</a>
-            </div>
-          </div>
-          <div class="item">
-            <div class="box">
-              <a href="#" class="thumbnail">
-                <img src="images/ex/doctors/d3.jpg" alt="">
-              </a>
-              <h3 class="name"><a href="#">Dr. Truong Hoang Phu Phi</a></h3>
-              <p class="title">Medical Director</p>
-              <a href="#" class="btn btn-primary">Read more</a>
-            </div>
-          </div>
-          <div class="item">
-            <div class="box">
-              <a href="#" class="thumbnail">
-                <img src="images/ex/doctors/d4.jpg" alt="">
-              </a>
-              <h3 class="name"><a href="#">dr. nguyen do nhu quynh</a></h3>
-              <p class="title">General Practitioner Health Check Doctor Internal Medicine</p>
-              <a href="#" class="btn btn-primary">Read more</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="clinics-map">
-      <div class="container">
-        <div class="heading">
-          <h2>Our Clinics in Vietnam</h2>
-        </div>
-        <a href="#" class="map">
-          <img src="images/map.jpg" alt="">
-        </a>
-      </div>
-    </div>
     <div class="services">
       <div class="container">
         <div class="row">
@@ -426,6 +336,86 @@
                   <p class="teaser">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, at!</p>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="healthcare-team">
+      <div class="container">
+        <div class="heading">
+          <h2>Healthcare Team</h2>
+          <p>Our healthcare Team comprises of expatriate and national doctors, nurses and specialists, offering primary care, diagnostics and emergency care. Language capabilities include English, Vietnamese,Japanese, Korean, French, Chinese and Russian.</p>
+        </div>
+        <div class="doctors-slider">
+          <div class="item">
+            <div class="box">
+              <a href="#" class="thumbnail">
+                <img src="images/ex/doctors/d1.jpg" alt="">
+              </a>
+              <h3 class="name"><a href="#">Dr. Huynh Chu</a></h3>
+              <p class="title">General Practitioner</p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="box">
+              <a href="#" class="thumbnail">
+                <img src="images/ex/doctors/d2.jpg" alt="">
+              </a>
+              <h3 class="name"><a href="#">dr. nguyen thi hong anh</a></h3>
+              <p class="title">General Practitioner Obstetrician and Gynecologist</p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="box">
+              <a href="#" class="thumbnail">
+                <img src="images/ex/doctors/d3.jpg" alt="">
+              </a>
+              <h3 class="name"><a href="#">Dr. Truong Hoang Phu Phi</a></h3>
+              <p class="title">Medical Director</p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="box">
+              <a href="#" class="thumbnail">
+                <img src="images/ex/doctors/d4.jpg" alt="">
+              </a>
+              <h3 class="name"><a href="#">dr. nguyen do nhu quynh</a></h3>
+              <p class="title">General Practitioner Health Check Doctor Internal Medicine</p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="box">
+              <a href="#" class="thumbnail">
+                <img src="images/ex/doctors/d2.jpg" alt="">
+              </a>
+              <h3 class="name"><a href="#">dr. nguyen thi hong anh</a></h3>
+              <p class="title">General Practitioner Obstetrician and Gynecologist</p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="box">
+              <a href="#" class="thumbnail">
+                <img src="images/ex/doctors/d3.jpg" alt="">
+              </a>
+              <h3 class="name"><a href="#">Dr. Truong Hoang Phu Phi</a></h3>
+              <p class="title">Medical Director</p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="box">
+              <a href="#" class="thumbnail">
+                <img src="images/ex/doctors/d4.jpg" alt="">
+              </a>
+              <h3 class="name"><a href="#">dr. nguyen do nhu quynh</a></h3>
+              <p class="title">General Practitioner Health Check Doctor Internal Medicine</p>
+              <a href="#" class="btn btn-primary">Read more</a>
             </div>
           </div>
         </div>
@@ -519,6 +509,16 @@
         </div>
       </div>
     </div>
+    <div class="clinics-map">
+      <div class="container">
+        <div class="heading">
+          <h2>Our Clinics in Vietnam</h2>
+        </div>
+        <a href="#" class="map">
+          <img src="images/map.jpg" alt="">
+        </a>
+      </div>
+    </div>    
 <?php include('footer.php') ?>
 </body>
 </html>

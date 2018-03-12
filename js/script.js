@@ -130,6 +130,9 @@ $(document).ready(function() {
 	  		addOverlay('body');
 	  		addOverlay('.header .container');
 	  	}
+	  	if ($('.header .clinics').hasClass('show')) {
+			$('.header .clinics').removeClass('show');
+		}
 	});
 	$('body').on('click', '.overlay', function(event) {
 	  	$('.header .search').removeClass('show');
@@ -138,9 +141,16 @@ $(document).ready(function() {
 	  	removeOverlay('.header .container');
 	});
 	$('.header .clinics .icon').click(function() {
-		$('.header .clinics').addClass('show');
-		addOverlay('body');
-	  	addOverlay('.header .container');
+		if ($('.header .clinics').hasClass('show')) {
+			$('.header .clinics').removeClass('show');
+			removeOverlay('.header .container');
+		}
+		else {
+			$('.header .clinics').addClass('show');
+			addOverlay('body');
+	  		addOverlay('.header .container');
+		}
+		
 	});
 	$('.body').scroll(function(){
 		if ($(this).scrollTop() > 40) {
@@ -160,7 +170,7 @@ $(document).ready(function() {
 			if ($('.header').hasClass('small')) {
 					$('.header').removeClass('small');
 			}
-			$('.header').css('background-color', 'rgba(255, 255, 255, 0.4)');
+			$('.header').css('background-color', 'rgba(255, 255, 255, 0.8)');
 			if ($('.head-space').length) {
 	  			if ($('.head-space').hasClass('small')) {
 		  			$('.head-space').removeClass('small');
@@ -249,9 +259,14 @@ $(document).ready(function() {
 		$('.appointment').css('top', '26%');
 	});
 	$('#agree-form .btn').click(function(event) {
-		setCookie('appointmentAgree','1',1);
-		$('.appointment').removeClass('hover');
-		$('.appointment').css('top', '26%');
+		if (document.getElementById('defaultCheck1').checked && document.getElementById('defaultCheck2').checked) {
+			setCookie('appointmentAgree','1',1);
+			$('.appointment').removeClass('hover');
+			$('.appointment').css('top', '26%');
+		}
+		else {
+			confirm("Bạn chưa chọn đồng ý!");
+		}
 	});
 	//Right menu about us page
 	if ($('.right-menu').length) {
