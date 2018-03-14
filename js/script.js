@@ -245,18 +245,25 @@ $(document).ready(function() {
 	});
 
 	$('.appointment').hover(function() {
+
 		var x = getCookie('appointmentAgree');
 		if (!x) {
 			$(this).addClass('hover');
-			$('.appointment').css('top', '22%');
+			if ($(window).width() > 1024) {
+				$('.appointment').css('top', '22%');
+			}
 		}
 		else {
-			$('.appointment').css('top', '26%');
+			if ($(window).width() > 1024) {
+				$('.appointment').css('top', '26%');
+			}
 		}
 		
 	}, function() {
 		$(this).removeClass('hover');
-		$('.appointment').css('top', '26%');
+		if ($(window).width() > 1024) {
+				$('.appointment').css('top', '26%');
+		}
 	});
 	$('#agree-form .btn').click(function(event) {
 		if (document.getElementById('defaultCheck1').checked && document.getElementById('defaultCheck2').checked) {

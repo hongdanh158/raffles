@@ -111,6 +111,9 @@
 	.about-us {
 		padding: 3rem 0
 	}
+	.appointment .col-lg-6, .appointment .col-lg-12 {
+		padding: 0 !important;
+	}
 }	
 @media only screen and (max-width: 768px) {
 	html { font-size: 64%;}
@@ -148,6 +151,19 @@
 	}
 	.healthcheck .item {
 		margin-bottom: 2rem;
+	}
+	.visa-health-check .form .group {
+		display: block
+	}
+	.visa-health-check .form .group .column {
+		display: block;
+		margin-bottom: 1rem;
+	}
+	.visa-health-check .form .group .column:last-child {
+	  padding-left: 0;
+	}
+	.visa-health-check .form .group .column:first-child {
+		width: 100%;
 	}
 }
 

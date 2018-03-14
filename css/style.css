@@ -1511,7 +1511,7 @@ strong {
   font-size: 1.6rem !important;
 }
 .datepicker-days table th, .datepicker-days table td {
-  padding: 1rem;
+  padding: 0.7rem;
 }
 .highlight {
   background-color: #f4f4f4;
@@ -1618,17 +1618,24 @@ strong {
   padding: 1rem;
   display: block;
   line-height: 100%;
+  line-height: 1.2;
 }
 .health-check-tab {
   padding-bottom: 6rem;
 }
 .health-check-tab .heading {
+  line-height: 1.2;
+
+}
+.health-check-tab .heading h2 {
   font-size: 3.6rem;
   font-family: "HelveticaNeueLight", Arial, "Helvetica Neue", Helvetica, sans-serif;
   color: #0c806b;
-  line-height: 1.5;
   margin-bottom: 2rem;
-
+  padding-bottom: 1rem;
+}
+.health-check-tab.visa-health-check  .heading h2 {
+  border-bottom: 1px solid #0c806b;
 }
 .health-check-tab .accordion {
   padding: 4rem 0 4rem 6rem;
@@ -1678,8 +1685,50 @@ strong {
 .health-check.news-information .item .name {
   min-height: 0;
 }
+.visa-health-check .content {
+  padding: 2rem 0;
+}
+.visa-health-check .blue-text {
+  color: #0c806b;
+}
+
+.visa-health-check .form .group {
+  display: table;
+  width: 100%;
+  margin-bottom: 2rem;
+  line-height: 1.2;
+}
+.visa-health-check .form .group .column {
+  display: table-cell;
+  vertical-align: middle;
+}
+.visa-health-check .form .group .column:first-child {
+  width: 150px;
+}
+.visa-health-check .form .group .column:last-child {
+  padding-left: 1rem;
+}
+.visa-health-check .info {
+  line-height: 1.5;
+  font-size: 1.6rem;
+  font-family: "HelveticaNeueLightItalic", Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.visa-health-check .form .form-control, .visa-health-check .form input[type="checkbox"] {
+  border: 1px solid #0c806b;
+}
 .make-appointment-page {
   padding-bottom: 6rem;
+}
+.visa-health-check .form .btn {
+  background: #0c806b;
+  color: #fff;
+  font-size: 2.4rem;
+  font-family: "HelveticaNeueBold", Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.visa-health-check .form .btn:hover {
+  background: #0c806b;
+  color: #fff;
+  opacity: 0.8;
 }
 .make-appointment-page .heading {
   font-size: 3.6rem;

@@ -12,37 +12,37 @@
         <div class="row">
           <div class="col-lg-4 col-sm-6">
             <div class="item">
-              <a href="#" class="thumbnail"><img src="images/ex/1.jpg" alt=""></a>
+              <a href="our-services-tab.php" class="thumbnail"><img src="images/ex/1.jpg" alt=""></a>
               <h2 class="name d-flex justify-content-center"><a href="our-services-tab.php">Specialists</h2>
             </div>
           </div>
           <div class="col-lg-4 col-sm-6">
             <div class="item">
-              <a href="#" class="thumbnail"><img src="images/ex/2.jpg" alt=""></a>
+              <a href="our-services-tab.php" class="thumbnail"><img src="images/ex/2.jpg" alt=""></a>
               <h2 class="name d-flex justify-content-center"><a href="our-services-tab.php">Vaccinations</a></h2>
             </div>
           </div>
           <div class="col-lg-4 col-sm-6">
             <div class="item">
-              <a href="#" class="thumbnail"><img src="images/ex/3.jpg" alt=""></a>
+              <a href="our-services-tab.php" class="thumbnail"><img src="images/ex/3.jpg" alt=""></a>
               <h2 class="name d-flex justify-content-center"><a href="our-services-tab.php">Fully operational emergency room</a></h2>
             </div>
           </div>
           <div class="col-lg-4 col-sm-6">
             <div class="item">
-              <a href="#" class="thumbnail"><img src="images/ex/4.jpg" alt=""></a>
+              <a href="our-services-tab.php" class="thumbnail"><img src="images/ex/4.jpg" alt=""></a>
               <h2 class="name d-flex justify-content-center"><a href="our-services-tab.php">Direct billing with insurance</a></h2>
             </div>
           </div>
           <div class="col-lg-4 col-sm-6">
             <div class="item">
-              <a href="#" class="thumbnail"><img src="images/ex/5.jpg" alt=""></a>
+              <a href="our-services-tab.php" class="thumbnail"><img src="images/ex/5.jpg" alt=""></a>
               <h2 class="name d-flex justify-content-center"><a href="our-services-tab.php">Direct billing with insurance</a></h2>
             </div>
           </div>
           <div class="col-lg-4 col-sm-6">
             <div class="item">
-              <a href="#" class="thumbnail"><img src="images/ex/6.jpg" alt=""></a>
+              <a href="our-services-tab.php" class="thumbnail"><img src="images/ex/6.jpg" alt=""></a>
               <h2 class="name d-flex justify-content-center"><a href="our-services-tab.php">Raffles membership program</a></h2>
             </div>
           </div>

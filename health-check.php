@@ -12,14 +12,14 @@
         <div class="row">
           <div class="col-lg-3 col-sm-6">
             <div class="item">
-              <a href="#" class="thumbnail"><img src="images/ex/1.jpg" alt=""></a>
-              <h2 class="name"><a href="health-check-tab.php">Annual Health Check Program</a></h2>
+              <a href="annual-health-check.php" class="thumbnail"><img src="images/ex/1.jpg" alt=""></a>
+              <h2 class="name"><a href="annual-health-check.php">Annual Health Check Program</a></h2>
             </div>
           </div>
           <div class="col-lg-3 col-sm-6">
             <div class="item">
-              <a href="#" class="thumbnail"><img src="images/ex/2.jpg" alt=""></a>
-              <h2 class="name"><a href="health-check-tab.php">Visa Health Check</a></h2>
+              <a href="visa-health-check.php" class="thumbnail"><img src="images/ex/2.jpg" alt=""></a>
+              <h2 class="name"><a href="visa-health-check.php">Visa Health Check</a></h2>
             </div>
           </div>
           <div class="col-lg-3 col-sm-6">

@@ -8,8 +8,8 @@
     <title>Reffles Group</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/icomoon.css" rel="stylesheet">
-    <link href="css/style.css?v=2" rel="stylesheet">
-    <link href="css/responsive.css?v=2" rel="stylesheet">
+    <link href="css/style.css?v=3" rel="stylesheet">
+    <link href="css/responsive.css?v=3" rel="stylesheet">
     <script src="js/jquery.min.js"></script>
 
     <!-- slidebar -->
@@ -92,7 +92,7 @@
               <a href="our-services.php" class="disabled">Our Services</a>
               <ul>
                 <li>
-                  <a href="#">Action</a>
+                  <a href="our-services-tab.php">Our services tab</a>
                 </li>
                 <li>
                   <a href="#">Action</a>
@@ -109,10 +109,10 @@
               <a href="health-check.php">Health Check Programs</a>
               <ul>
                 <li>
-                  <a href="#">Action 2</a>
+                  <a href="annual-health-check.php">Annual Health Check</a>
                 </li>
                 <li>
-                  <a href="#">Action 2</a>
+                  <a href="visa-health-check.php">Visa Health Check</a>
                 </li>
                 <li>
                   <a href="#">Action 2</a>
