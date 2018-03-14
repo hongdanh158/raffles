@@ -9,6 +9,13 @@
             <li class="breadcrumb-item"><a href="#"><i class="fas fa-home"></i> Raffles Medical</a></li>
             <li class="breadcrumb-item active">Helthcheck</li>
         </ol>
+        <div class="head-text">
+          <p><strong>“A perfect healthcheck program could tell your “inside” story” </strong></p>
+          Annual healthcheck screening is one of the best ways to protect your health. A healthy lifestyle means making the right choices in diet and exercise and also having regular health checks to ensure your body are on the right track and to identify any emerging health issues or problems. With early detection of diseases or conditions, many illnesses can be treated before they pose a serious problem to your health. Determined by different lifestyles and any current health issues, you can choose a Raffles Medical screening program best suited to your health and lifestyle with the option of “add-ons” tailored to individual requirements for male and females.
+        </div>
+        <div class="heading">
+          <h2>Health Check Programs</h2>
+        </div>
         <div class="row">
           <div class="col-lg-3 col-sm-6">
             <div class="item">

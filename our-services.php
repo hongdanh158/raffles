@@ -9,6 +9,12 @@
           <li class="breadcrumb-item"><a href="#"><i class="fas fa-home"></i> Raffles Medical</a></li>
           <li class="breadcrumb-item active">Our Services</li>
         </ol>
+        <div class="head-text">
+          <p>With over 25 year experience in providing healthcare service in Viet Nam, Raffles Medical offers a one stop service for your medical needs:</p>
+        </div>
+        <div class="heading">
+          <h2>Our Services</h2>
+        </div>
         <div class="row">
           <div class="col-lg-4 col-sm-6">
             <div class="item">

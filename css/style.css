@@ -1685,6 +1685,22 @@ strong {
 .health-check.news-information .item .name {
   min-height: 0;
 }
+.health-check .head-text {
+  line-height: 1.2;
+  margin-bottom: 3rem;
+}
+.health-check .head-text p {
+  margin-bottom: 2rem;
+}
+.health-check .heading {
+  margin-bottom: 3rem;
+}
+.health-check .heading h2 {
+    color: #0c806b;
+    font-family: "HelveticaNeueLight", Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
 .visa-health-check .content {
   padding: 2rem 0;
 }
