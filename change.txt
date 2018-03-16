@@ -1,8 +1,0 @@
-﻿Thay doi ngay 7/3:
-
-Style.css
-.dropdown-toggle {
-  position: relative;
-  /*padding-right: 2rem;*/ Bỏ phần css này
-}
-

@@ -25,47 +25,101 @@
           <div id="tab1" class="tab-pane active">
             <div class="content">
               <form action="" method="post" id="make-appointment">
-                <div class="row col col-lg-12">All fields marked with * are required</div>
-                <div class="row">
-                  <div class="col-lg-12">
-                    <select class="form-control select-style">
-                      <option>Specialist Appointment</option>
-                      <option value="1">Ho Chi Minh Clinic</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-lg-12">
-                    <p class="blue-text">Specialist Appointment Details</p>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-lg-6 col-sm-12">
-                    <select class="form-control">
-                      <option value="1">Ho Chi Minh Clinic</option>
-                    </select>
-                  </div>
-                  <div class="col-lg-6 col-sm-12">
-                    <input type="text" class="form-control" placeholder="Preferred Doctor">
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-lg-6 col-sm-12">
-                    <select class="form-control">
-                      <option value="1">Preferred Doctor</option>
-                    </select>
-                  </div>
-                  <div class="col-lg-6 col-sm-12">
-                    <input type="text" class="form-control datepicker" placeholder="Preferred Appointment Date">
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-lg-9 col-sm-12">
-                    <p>After successful submission, our staff will contact you to confirm your appointment</p>
-                  </div>
-                  <div class="col-lg-3 col-sm-12 text-right">
-                    <a href="#" class="btn btn-primary">Next</a>
-                  </div>
+                <div class="steps-container">
+                 <div class="steps-content">
+                    <div class="steps step-1">
+                      <div class="row col col-lg-12">All fields marked with * are required</div>
+                        <div class="row">
+                          <div class="col-lg-12">
+                            <select class="form-control select-style">
+                              <option>Specialist Appointment</option>
+                              <option value="1">Ho Chi Minh Clinic</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-lg-12">
+                            <p class="blue-text">Specialist Appointment Details</p>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-lg-6 col-sm-12">
+                            <select class="form-control">
+                              <option value="1">Ho Chi Minh Clinic</option>
+                            </select>
+                          </div>
+                          <div class="col-lg-6 col-sm-12">
+                            <input type="text" class="form-control" placeholder="Preferred Doctor">
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-lg-6 col-sm-12">
+                            <select class="form-control">
+                              <option value="1">Preferred Doctor</option>
+                            </select>
+                          </div>
+                          <div class="col-lg-6 col-sm-12">
+                            <input type="text" class="form-control datepicker" placeholder="Preferred Appointment Date">
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-lg-9 col-sm-12">
+                            <p>After successful submission, our staff will contact you to confirm your appointment</p>
+                          </div>
+                          <div class="col-lg-3 col-sm-12 text-right">
+                            <a href="#" class="btn btn-primary next">Next</a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="steps step-2">
+                        <div class="row">
+                          <div class="col-sm-12">
+                            <input type="text" class="form-control" placeholder="Name*">
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-lg-6 col-sm-12">
+                            <input type="text" class="form-control" placeholder="Email*">
+                          </div>
+                          <div class="col-lg-6 col-sm-12">
+                            <input type="text" class="form-control" placeholder="Contact Number*">
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-sm-12">
+                            <input type="text" class="form-control" placeholder="NRIC/FIN/BC/Passport Number*">
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-lg-6 col-sm-12">
+                            <input type="text" class="form-control" placeholder="Nationality*">
+                          </div>
+                          <div class="col-lg-6 col-sm-12">
+                            <label for="age" class="label-for">Gender</label>
+                            <div class="radio">
+                                <label for="gender-male">
+                                    <input checked="" type="radio" class="ap_gender" name="gender-male" id="gender-male" value="Male">
+                                    Male
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label for="gender-female">
+                                    <input type="radio" name="gender-male" class="ap_gender" id="gender-female" value="Female">
+                                    Female
+                                </label>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row" style="margin-top: 2rem">
+                          <div class="col-lg-6">
+                            <a href="#" class="btn btn-primary prev">Prev</a>
+                          </div>
+                          <div class="col-lg-6  text-right">
+                            <a href="#" class="btn btn-primary">Submit</a>
+                          </div>
+                        </div>
+                    </div>
+                 </div>
                 </div>
               </form>
               <form action="" method="post" id="agree-form">
@@ -216,13 +270,13 @@
           </div>
           <div class="item col-lg-4 col-sm-12">
             <div class="box">
-              <h3 class="name"><a href="#">RAFFLES MEDICAL GROUP</a></h3>
+              <h3 class="name"><a href="#">Our Clinics</a></h3>
               <p class="text">Raffles Medical Group (RMG) is a leading private healthcare provider in Asia, operating medical facilities across 13 cities in Singapore, China, Japan, Vietnam and Cambodia. </p>
             </div>
           </div>
           <div class="item col-lg-4 col-sm-12">
             <div class="box">
-              <h3 class="name"><a href="#">RAFFLES MEDICAL GROUP</a></h3>
+              <h3 class="name"><a href="#">Our Services</a></h3>
               <p class="text">Raffles Medical Group (RMG) is a leading private healthcare provider in Asia, operating medical facilities across 13 cities in Singapore, China, Japan, Vietnam and Cambodia. </p>
             </div>
           </div>
@@ -296,7 +350,7 @@
                   <a href="#" class="thumbnail">
                     <img src="images/ex/services/2.jpg" alt="">
                   </a>
-                  <h3 class="name"><a href="#">Specialists</a></h3>
+                  <h3 class="name"><a href="#">Family medicine</a></h3>
                   <p class="teaser">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, at!</p>
                 </div>
               </div>
@@ -305,7 +359,7 @@
                   <a href="#" class="thumbnail">
                     <img src="images/ex/services/3.jpg" alt="">
                   </a>
-                  <h3 class="name"><a href="#">Specialists</a></h3>
+                  <h3 class="name"><a href="#">Direct Billing with Insurance</a></h3>
                   <p class="teaser">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, at!</p>
                 </div>
               </div>

@@ -14,7 +14,7 @@
               <div class="card-header" id="headingOne">
                 <h5 class="mb-0">
                   <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    Raffles Medical Hochiminh
+                    Raffles Medical Ho Chi Minh
                   </button>
                 </h5>
               </div>
@@ -43,7 +43,7 @@
               <div class="card-header" id="headingTwo">
                 <h5 class="mb-0">
                   <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    Raffles Medical HanoiRaffles
+                    Raffles Medical Ha Noi
                   </button>
                 </h5>
               </div>
@@ -72,7 +72,7 @@
               <div class="card-header" id="headingThree">
                 <h5 class="mb-0">
                   <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    Medical Vungtau
+                    Raffles Medical Vung Tau
                   </button>
                 </h5>
               </div>

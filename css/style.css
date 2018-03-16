@@ -800,6 +800,7 @@ strong {
 }
 .appointment #agree-form {
   display: none;
+  padding: 1rem 2rem;
 }
 .appointment #agree-form p {
   margin-bottom: 1rem;
@@ -840,11 +841,13 @@ strong {
 .index-three-box .item .box {
   background-color: #01a987;
   padding: 1.5rem;
+  min-height: 35rem;
 }
 .index-three-box .item .name {
   font-size: 30px;
   line-height: 1.2;
   margin: 3rem 0;
+  text-transform: uppercase;
 }
 .index-three-box .item a {
   color: #fff; 
@@ -937,7 +940,8 @@ strong {
 .healthcare-team .heading h2 {
   font-size: 3rem;
   margin-bottom: 1rem;
-  font-family: "HelveticaNeueBold", Arial, Helvetica, sans-serif;
+  font-family: 'HelveticaNeueLight', Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
 }
 .healthcare-team.sub-page .heading h2 {
   color: #0c806b;
@@ -1100,7 +1104,8 @@ strong {
   text-align: center;
   font-size: 3rem;
   margin-bottom: 3rem;
-  font-family: 'HelveticaNeueBold', Arial, Helvetica, sans-serif;
+  font-family: 'HelveticaNeueLight', Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
 }
 .clinics-map  .map {
   display: block;
@@ -1122,7 +1127,8 @@ strong {
 .services .heading {
   font-size: 3rem;
   margin-bottom: 3rem;
-  font-family: 'HelveticaNeueBold', Arial, Helvetica, sans-serif;
+  font-family: 'HelveticaNeueLight', Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
 }
 .services .heading h2 {
   display: inline-block;
@@ -1233,7 +1239,8 @@ strong {
 .index-news .heading h2 {
   font-size: 3rem;
   margin-bottom: 1rem;
-  font-family: 'HelveticaNeueBold', Arial, Helvetica, sans-serif;
+  font-family: 'HelveticaNeueLight', Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
 }
 .news-slider {
   padding: 6rem 0; 
@@ -2069,4 +2076,46 @@ strong {
 }
 .health-check .breadcrumb, .health-check-tab .breadcrumb, .healthcare-team.sub-page .breadcrumb, .our-clinics .breadcrumb, .make-appointment-page .breadcrumb, .about-us .breadcrumb {
   margin-bottom: 4rem;
+  font-size: 1.4rem;
+}
+
+
+#tab1 .content {
+  padding: 0;
+}
+.steps-container {
+  width: 100%;
+  overflow: hidden;
+}
+.steps-container .steps-content {
+  width: 200%;
+  overflow: hidden;
+  position: relative;
+  transition-duration: .5s;
+  -webkit-transition: .5s;
+  transition: .5s -webkit-transform:translatez(0);
+  -moz-transform: translatez(0);
+  -ms-transform: translatez(0);
+  -o-transform: translatez(0);
+  transform: translatez(0);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box
+}
+.steps-container .steps {
+    padding: 15px;
+    position: relative;
+    width: 50%;
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+.steps-container .step-2 label {
+    padding-top: 1rem!important;
+    min-height: 28px;
+}
+.radio {
+    display: inline-block;
+    margin-right: 10px;
 }

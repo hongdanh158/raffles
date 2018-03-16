@@ -412,13 +412,40 @@ $(function () {
 	    } else {
 	      $('.scrollToTop').fadeOut();
 	    }
-	  });
+	});
 	  
-	  //Click event to scroll to top
-	  $('.scrollToTop').click(function(){
-	    $('.body').animate({scrollTop : 0},800);
-	    return false;
-	  });
+	//Click event to scroll to top
+		$('.scrollToTop').click(function(){
+		$('.body').animate({scrollTop : 0},800);
+		return false;
+	});
+
+	// Step
+	if ($('.steps-container').length) {
+		setWWidth();
+		var x = 0;
+	    $('.steps .next').click(function(event) {
+	    	x = x + $('.appointment .tab-pane').width();
+	    	transform(x)
+	    });
+	     $('.steps .prev').click(function(event) {
+	    	x = x - $('.appointment .tab-pane').width();
+	    	transform(x)
+	    });
+	};
+	function setWWidth() {
+		var numSection = 2;
+		$('.steps-container .steps-content').css({width: numSection * $('.appointment .tab-pane').width()});
+		// $('.steps-container .steps-content .steps').css({width: $('.appointment .tab-pane').width()});
+
+	}
+	function transform(x) {
+    	$('.steps-container .steps').css({
+    		'transition-duration' : '0.5s',
+    		'transform' : 'translate3d(-' + x +'px, 0px, 0px)'
+    	});
+	}
+	// End Step
 	$(window).resize(function(){
         clearTimeout(window.resizeEvt);
         window.resizeEvt = setTimeout(function(){

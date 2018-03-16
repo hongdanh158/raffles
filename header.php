@@ -8,7 +8,7 @@
     <title>Reffles Group</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/icomoon.css" rel="stylesheet">
-    <link href="css/style.css?v=3" rel="stylesheet">
+    <link href="css/style.css?v=4" rel="stylesheet">
     <link href="css/responsive.css?v=3" rel="stylesheet">
     <script src="js/jquery.min.js"></script>
 
