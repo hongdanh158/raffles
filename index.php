@@ -28,7 +28,10 @@
                 <div class="steps-container">
                  <div class="steps-content">
                     <div class="steps step-1">
-                      <div class="row col col-lg-12">All fields marked with * are required</div>
+                      <div class="row"><p class="size-24" style="margin-left: 15px;">Make an appointment</p></div>
+                      <div class="row">
+                        <div class="col-lg-12">All fields marked with * are required</div>
+                      </div>
                         <div class="row">
                           <div class="col-lg-6 col-sm-12">
                             <select class="form-control select-style">
@@ -79,7 +82,7 @@
                             <input type="text" class="form-control" placeholder="Phone number*">
                           </div>
                           <div class="col-lg-6 col-sm-12">
-                            <input type="text" class="form-control" placeholder="DOB*">
+                            <input type="text" class="form-control datepicker" placeholder="DOB*">
                           </div>
                         </div>
                         <div class="row">
@@ -103,15 +106,25 @@
                             <a href="#" class="btn btn-primary prev">Prev</a>
                           </div>
                           <div class="col-lg-6  text-right">
-                            <a href="#" class="btn btn-primary">Submit</a>
+                            <a href="#" class="btn btn-primary next">Submit</a>
                           </div>
                         </div>
+                    </div>
+                    <div class="steps step-3">
+                        <p>Raffles Medical Viet Nam thank you for using our Online  Appointment System. After successful submission, our staff will contact you to confirm your appointment within 4 working – hour. In case of EMERGENCY , please come to our clinics or CALL:</p>
+                        <p>
+                          <ul>
+                            <li><strong>Address:</strong> 167A Nam Ky Khoi Nghia Str.,, HCMC <br> <strong>Tel:</strong> <strong><a href="tel:02838240777" class="red">(028) 38240 777</a></strong></li>
+                            <li><strong>Address:</strong> 51 Xuan Dieu Str., Ha Noi <br> <strong>Tel:</strong> <strong><a href="tel:02838240777" class="red">(024) 39340 666 </a></strong> - <strong><a href="tel:0243676222" class="red">(024) 3676 222</a></strong></li>
+                            <li><strong>Address:</strong> 01 Le Ngoc Han Str., Vung Tau City  <br> <strong>Tel:</strong> <strong><a href="tel:02543858776" class="red">(0254) 3858 776</a></strong></li>
+                          </ul>
+                        </p>
                     </div>
                  </div>
                 </div>
               </form>
               <form action="" method="post" id="agree-form">
-                  <p><strong>After successful submission, our staff will contact you to confirm your appointment within 4 working – hour. Note:</strong></p>
+                  <p><strong>Note:</strong></p>
                   <p>
                     <ul>
                       <li>All fields marked with * are required</li>

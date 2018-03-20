@@ -116,7 +116,7 @@ strong {
   border-radius: 0;
 }
 .form-control:focus {
-    color: #696a6a;
+    color: #fff;
     background-color: #fff;
     border-color: #0c806b;
     outline: 0;
@@ -668,7 +668,7 @@ strong {
 .appointment {
   position: absolute;
   z-index: 9999;
-  top: 25%;
+  top: 24%;
   left: 7.5%;
   width: 100%;
   max-width: 50rem;
@@ -808,17 +808,17 @@ strong {
 .appointment #agree-form p {
   margin-bottom: 1rem;
 }
-.appointment #agree-form ul {
+.appointment .tab-pane ul {
   margin-left: 1rem;
 }
-.appointment #agree-form li {
+.appointment .tab-pane ul li {
   list-style: none;
   padding-left: 1rem; 
   position: relative;
   line-height: 1.2;
   margin-bottom: 0.5rem;
 }
-.appointment #agree-form li .icon {
+.appointment .tab-pane ul .icon {
   position: absolute;
   color: #0c806b;
   font-size: 1rem;
@@ -2082,7 +2082,6 @@ strong {
   font-size: 1.4rem;
 }
 
-
 #tab1 .content {
   padding: 0;
 }
@@ -2091,7 +2090,7 @@ strong {
   overflow: hidden;
 }
 .steps-container .steps-content {
-  width: 200%;
+  width: 300%;
   overflow: hidden;
   position: relative;
   transition-duration: .5s;
@@ -2108,7 +2107,7 @@ strong {
 .steps-container .steps {
     padding: 15px;
     position: relative;
-    width: 50%;
+    width: 33.333333%;
     float: left;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -2122,6 +2121,19 @@ strong {
     display: inline-block;
     margin-right: 10px;
 }
+.step-3 {
+  text-align: justify;
+  font-size: 1.6rem;
+  line-height: 1.2;
+}
+.step-3 p {
+  text-align: justify;
+  margin-bottom: 1rem;
+}
+.step-3 ul li {
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
 #tab2 .form-check-input {
   margin-top: 0.2rem;
 }
@@ -2131,4 +2143,7 @@ strong {
 
 .datepicker {
   border-radius: 0 !important;
+}
+.datepicker-dropdown {
+  z-index: 99999999999999999999999 !important;
 }

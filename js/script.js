@@ -2,18 +2,18 @@ $(document).ready(function() {
 	headerWidth();
 });
 function getScrollBarWidth () {
-	var inner = document.createElement('p');
-	inner.style.width = "100%";
+	var inner          = document.createElement('p');
+	inner.style.width  = "100%";
 	inner.style.height = "200px";
-
+	
 	var outer = document.createElement('div');
-	outer.style.position = "absolute";
-	outer.style.top = "0px";
-	outer.style.left = "0px";
+	outer.style.position   = "absolute";
+	outer.style.top        = "0px";
+	outer.style.left       = "0px";
 	outer.style.visibility = "hidden";
-	outer.style.width = "200px";
-	outer.style.height = "150px";
-	outer.style.overflow = "hidden";
+	outer.style.width      = "200px";
+	outer.style.height     = "150px";
+	outer.style.overflow   = "hidden";
 	outer.appendChild (inner);
 
 	document.body.appendChild (outer);
@@ -38,7 +38,9 @@ function headerWidth() {
 $(function() {
 	$('[data-toggle="tooltip"]').tooltip();
 	if ($('.datepicker').length) {
-		$('.datepicker').datepicker();
+		$('.datepicker').datepicker({
+			format: 'dd/mm/yyyy'
+		});
 	}
 	// Initialize Slidebars
 	var controller = new slidebars();
@@ -249,21 +251,10 @@ $(document).ready(function() {
 		var x = getCookie('appointmentAgree');
 		if (!x) {
 			$(this).addClass('hover');
-			if ($(window).width() > 1024) {
-				$('.appointment').css('top', '22%');
-			}
-		}
-		else {
-			if ($(window).width() > 1024) {
-				$('.appointment').css('top', '26%');
-			}
 		}
 		
 	}, function() {
 		$(this).removeClass('hover');
-		if ($(window).width() > 1024) {
-				$('.appointment').css('top', '26%');
-		}
 	});
 	$('#agree-form .btn').click(function(event) {
 		setCookie('appointmentAgree','1',1);
@@ -428,7 +419,7 @@ $(function () {
 	    });
 	};
 	function setWWidth() {
-		var numSection = 2;
+		var numSection = 3;
 		$('.steps-container .steps-content').css({width: numSection * $('.appointment .tab-pane').width()});
 		// $('.steps-container .steps-content .steps').css({width: $('.appointment .tab-pane').width()});
 
@@ -466,8 +457,7 @@ $(function () {
 	if ($('.make-appointment-page .make-form li').length) {
 		$('.make-appointment-page .make-form li').prepend('<span class="icon"><i class="fas fa-square"></i></span>');
 	}
-	if ($('.appointment #agree-form li').length) {
-		$('.appointment #agree-form li').prepend('<span class="icon"><i class="fas fa-square"></i></span>');
+	if ($('.appointment .tab-pane li').length) {
+		$('.appointment .tab-pane li').prepend('<span class="icon"><i class="fas fa-square"></i></span>');
 	}
-
 })
