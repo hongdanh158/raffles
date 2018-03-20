@@ -240,8 +240,8 @@ $(document).ready(function() {
 	// Appointment form
 	$('.find-doctor').click(function(event) {
 		var cls = "." + $(this).attr('active');
-		$('.dcform').fadeOut(400);
-		$(cls).fadeIn(400);
+		$('.dcform').css('display', 'none');
+		$(cls).css('display', 'block');
 	});
 
 	$('.appointment').hover(function() {
@@ -266,14 +266,8 @@ $(document).ready(function() {
 		}
 	});
 	$('#agree-form .btn').click(function(event) {
-		if (document.getElementById('defaultCheck1').checked && document.getElementById('defaultCheck2').checked) {
-			setCookie('appointmentAgree','1',1);
-			$('.appointment').removeClass('hover');
-			$('.appointment').css('top', '26%');
-		}
-		else {
-			confirm("Bạn chưa chọn đồng ý!");
-		}
+		setCookie('appointmentAgree','1',1);
+		$('.appointment').removeClass('hover');
 	});
 	//Right menu about us page
 	if ($('.right-menu').length) {

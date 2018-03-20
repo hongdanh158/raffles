@@ -201,7 +201,5 @@
    <!-- slick -->
   <link rel="stylesheet" href="js/datepicker/css/bootstrap-datepicker.css">
   <script src="js/datepicker/js/bootstrap-datepicker.min.js""></script>
-  <link href="js/steps/css/smart_wizard.css" rel="stylesheet" type="text/css" />
-  <script type="text/javascript" src="js/steps/js/jquery.smartWizard.min.js"></script>
   <!-- End slick -->
-  <script defer src="js/script.js?v=3"></script>
+  <script defer src="js/script.js?v=5"></script>

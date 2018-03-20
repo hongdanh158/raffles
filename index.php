@@ -30,39 +30,33 @@
                     <div class="steps step-1">
                       <div class="row col col-lg-12">All fields marked with * are required</div>
                         <div class="row">
-                          <div class="col-lg-12">
+                          <div class="col-lg-6 col-sm-12">
                             <select class="form-control select-style">
-                              <option>Specialist Appointment</option>
-                              <option value="1">Ho Chi Minh Clinic</option>
+                              <option>Preferred location*</option>
+                              <option value="1">Ho Chi Minh</option>
+                              <option value="2">Hanoi</option>
+                              <option value="3">Vung Tau</option>
                             </select>
                           </div>
-                        </div>
-                        <div class="row">
-                          <div class="col-lg-12">
-                            <p class="blue-text">Specialist Appointment Details</p>
-                          </div>
-                        </div>
-                        <div class="row">
                           <div class="col-lg-6 col-sm-12">
                             <select class="form-control">
-                              <option value="1">Ho Chi Minh Clinic</option>
+                              <option>Reason for visit</option>
+                              <option value="1">Visa Health Check </option>
+                              <option value="2">Health Check</option>
                             </select>
                           </div>
-                          <div class="col-lg-6 col-sm-12">
+                        </div>
+                        <div class="row">
+                          <div class="col-sm-12">
                             <input type="text" class="form-control" placeholder="Preferred Doctor">
                           </div>
                         </div>
                         <div class="row">
-                          <div class="col-lg-6 col-sm-12">
-                            <select class="form-control">
-                              <option value="1">Preferred Doctor</option>
-                            </select>
-                          </div>
-                          <div class="col-lg-6 col-sm-12">
+                          <div class="col-sm-12">
                             <input type="text" class="form-control datepicker" placeholder="Preferred Appointment Date">
                           </div>
                         </div>
-                        <div class="row">
+                        <div class="row"  style="margin-top: 2rem">
                           <div class="col-lg-9 col-sm-12">
                             <p>After successful submission, our staff will contact you to confirm your appointment</p>
                           </div>
@@ -73,44 +67,38 @@
                     </div>
                     <div class="steps step-2">
                         <div class="row">
-                          <div class="col-sm-12">
-                            <input type="text" class="form-control" placeholder="Name*">
+                          <div class="col-lg-6 col-sm-12">
+                            <input type="text" class="form-control" placeholder="Full name*">
                           </div>
-                        </div>
-                        <div class="row">
                           <div class="col-lg-6 col-sm-12">
                             <input type="text" class="form-control" placeholder="Email*">
                           </div>
+                        </div>
+                        <div class="row">
                           <div class="col-lg-6 col-sm-12">
-                            <input type="text" class="form-control" placeholder="Contact Number*">
+                            <input type="text" class="form-control" placeholder="Phone number*">
+                          </div>
+                          <div class="col-lg-6 col-sm-12">
+                            <input type="text" class="form-control" placeholder="DOB*">
                           </div>
                         </div>
                         <div class="row">
                           <div class="col-sm-12">
-                            <input type="text" class="form-control" placeholder="NRIC/FIN/BC/Passport Number*">
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                              <label class="form-check-label" for="defaultCheck1">
+                                I agree with the Terms and Conditions of use.
+                              </label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                              <label class="form-check-label" for="defaultCheck2">
+                                 I agree that Raffles Medical Vietnam may collec, use and disclose my personal data to contact me in accordance with RM’s data protection policy.
+                              </label>
+                            </div>
                           </div>
                         </div>
                         <div class="row">
-                          <div class="col-lg-6 col-sm-12">
-                            <input type="text" class="form-control" placeholder="Nationality*">
-                          </div>
-                          <div class="col-lg-6 col-sm-12">
-                            <label for="age" class="label-for">Gender</label>
-                            <div class="radio">
-                                <label for="gender-male">
-                                    <input checked="" type="radio" class="ap_gender" name="gender-male" id="gender-male" value="Male">
-                                    Male
-                                </label>
-                            </div>
-                            <div class="radio">
-                                <label for="gender-female">
-                                    <input type="radio" name="gender-male" class="ap_gender" id="gender-female" value="Female">
-                                    Female
-                                </label>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="row" style="margin-top: 2rem">
                           <div class="col-lg-6">
                             <a href="#" class="btn btn-primary prev">Prev</a>
                           </div>
@@ -123,7 +111,7 @@
                 </div>
               </form>
               <form action="" method="post" id="agree-form">
-                  <p><strong>After successful submission, our staff will contact you to confirm your appointment within 4 working – hour.</strong></p>
+                  <p><strong>After successful submission, our staff will contact you to confirm your appointment within 4 working – hour. Note:</strong></p>
                   <p>
                     <ul>
                       <li>All fields marked with * are required</li>
@@ -133,18 +121,13 @@
                     </ul>
                   </p>
                   <p>
-                    <div class="form-check">
-                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                      <label class="form-check-label" for="defaultCheck1">
-                        I agree with the Terms and Conditions of use.
-                      </label>
-                    </div>
-                    <div class="form-check">
-                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
-                      <label class="form-check-label" for="defaultCheck2">
-                         I agree that Raffles Medical Vietnam may collec, use and disclose my personal data to contact me in accordance with RM’s data protection policy.
-                      </label>
-                    </div>
+                    Raffles Medical Ho Chi Minh: <strong><a href="tel:02838240777" class="red">(028) 38240 777</a></strong>
+                  </p>
+                  <p>
+                    Raffles Medical Hanoi:  <strong><a href="tel:02838240777" class="red">(024) 39340 666 </a></strong> - <strong><a href="tel:0243676222" class="red">(024) 3676 222</a></strong>
+                  </p>
+                  <p>
+                    Raffles Medical Vung Tau: <strong><a href="tel:02543858776" class="red">(0254) 3858 776</a></strong>
                   </p>
                   <p>
                     <a href="#" class="btn btn-primary">Agree</a>
@@ -155,7 +138,7 @@
           <div id="tab2" class="tab-pane">
             <div class="content">
               <form action="" method="post">
-                <div class="row"><p class="size-24">Find a Doctor</p></div>
+                <div class="row"><p class="size-24" style="margin-left: 1.5rem;">Find a Doctor</p></div>
                 <div class="row">
                   <div class="col-lg-12">
                     <div class="form-check">
@@ -250,7 +233,7 @@
                     <a href="#" class="blue-text" style="font-size: 1.6rem !important; display: block; line-height: 1.5;"><i class="far fa-bookmark" ></i> Notes (0 Doctors)</a>
                   </div>
                   <div class="col col-lg-3 text-right">
-                    <a href="#" class="btn btn-primary">Next</a>
+                    <a href="#" class="btn btn-primary">Find</a>
                   </div>
                 </div>
               </form>
