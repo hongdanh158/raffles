@@ -202,4 +202,4 @@
   <link rel="stylesheet" href="js/datepicker/css/bootstrap-datepicker.css">
   <script src="js/datepicker/js/bootstrap-datepicker.min.js""></script>
   <!-- End slick -->
-  <script defer src="js/script.js?v=5"></script>
+  <script defer src="js/script.js?v=6"></script>

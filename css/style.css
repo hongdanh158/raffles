@@ -2123,7 +2123,7 @@ strong {
 }
 .step-3 {
   text-align: justify;
-  font-size: 1.6rem;
+  font-size: 1.6rem !important;
   line-height: 1.2;
 }
 .step-3 p {

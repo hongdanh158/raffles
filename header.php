@@ -8,8 +8,8 @@
     <title>Reffles Group</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/icomoon.css" rel="stylesheet">
-    <link href="css/style.css?v=5" rel="stylesheet">
-    <link href="css/responsive.css?v=5" rel="stylesheet">
+    <link href="css/style.css?v=6" rel="stylesheet">
+    <link href="css/responsive.css?v=6" rel="stylesheet">
     <script src="js/jquery.min.js"></script>
 
     <!-- slidebar -->
