@@ -122,6 +122,9 @@ strong {
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(12, 128, 107,.25);
 }
+select.form-control option {
+  color: #444;
+}
 .form-check-input {
   margin-top: 1.1rem;
   margin-right: -0.25rem;
