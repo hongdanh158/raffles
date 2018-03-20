@@ -102,10 +102,10 @@
                           </div>
                         </div>
                         <div class="row">
-                          <div class="col-lg-6">
+                          <div class="col-lg-6 col-6">
                             <a href="#" class="btn btn-primary prev">Prev</a>
                           </div>
-                          <div class="col-lg-6  text-right">
+                          <div class="col-lg-6 col-6 text-right">
                             <a href="#" class="btn btn-primary next">Submit</a>
                           </div>
                         </div>
@@ -114,9 +114,9 @@
                         <p>Raffles Medical Viet Nam thank you for using our Online  Appointment System. After successful submission, our staff will contact you to confirm your appointment within 4 working – hour. In case of EMERGENCY , please come to our clinics or CALL:</p>
                         <p>
                           <ul>
-                            <li><strong>Address:</strong> 167A Nam Ky Khoi Nghia Str.,, HCMC <br> <strong>Tel:</strong> <strong><a href="tel:02838240777" class="red">(028) 38240 777</a></strong></li>
-                            <li><strong>Address:</strong> 51 Xuan Dieu Str., Ha Noi <br> <strong>Tel:</strong> <strong><a href="tel:02838240777" class="red">(024) 39340 666 </a></strong> - <strong><a href="tel:0243676222" class="red">(024) 3676 222</a></strong></li>
-                            <li><strong>Address:</strong> 01 Le Ngoc Han Str., Vung Tau City  <br> <strong>Tel:</strong> <strong><a href="tel:02543858776" class="red">(0254) 3858 776</a></strong></li>
+                            <li><strong>Address:</strong> 167A Nam Ky Khoi Nghia Str.,, HCMC <br> <strong>Tel:</strong> <strong><a href="tel:02838240777" class="red">(028)38240777</a></strong></li>
+                            <li><strong>Address:</strong> 51 Xuan Dieu Str., Ha Noi <br> <strong>Tel:</strong> <strong><a href="tel:02838240777" class="red">(024)39340666 </a></strong> - <strong><a href="tel:0243676222" class="red">(024)3676222</a></strong></li>
+                            <li><strong>Address:</strong> 01 Le Ngoc Han Str., Vung Tau City  <br> <strong>Tel:</strong> <strong><a href="tel:02543858776" class="red">(0254)3858776</a></strong></li>
                           </ul>
                         </p>
                     </div>
@@ -134,13 +134,13 @@
                     </ul>
                   </p>
                   <p>
-                    Raffles Medical Ho Chi Minh: <strong><a href="tel:02838240777" class="red">(028) 38240 777</a></strong>
+                    Raffles Medical Ho Chi Minh: <strong><a href="tel:02838240777" class="red">(028)38240777</a></strong>
                   </p>
                   <p>
-                    Raffles Medical Hanoi:  <strong><a href="tel:02838240777" class="red">(024) 39340 666 </a></strong> - <strong><a href="tel:0243676222" class="red">(024) 3676 222</a></strong>
+                    Raffles Medical Hanoi:  <strong><a href="tel:02838240777" class="red">(024)39340666</a></strong> - <strong><a href="tel:0243676222" class="red">(024)3676222</a></strong>
                   </p>
                   <p>
-                    Raffles Medical Vung Tau: <strong><a href="tel:02543858776" class="red">(0254) 3858 776</a></strong>
+                    Raffles Medical Vung Tau: <strong><a href="tel:02543858776" class="red">(0254)3858776</a></strong>
                   </p>
                   <p>
                     <a href="#" class="btn btn-primary">Agree</a>

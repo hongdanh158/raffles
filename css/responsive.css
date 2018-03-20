@@ -111,8 +111,14 @@
 	.about-us {
 		padding: 3rem 0
 	}
-	.appointment .col-lg-6, .appointment .col-lg-12 {
+	.appointment .col-lg-6, .appointment .col-lg-12, .appointment .col-sm-12 {
 		padding: 0 !important;
+	}
+	.tab-pane .size-24 {
+		margin-left: 0 !important;
+	}
+	#tab2 .form-check-input {
+		margin-top: 0.5rem;
 	}
 }	
 @media only screen and (max-width: 768px) {
@@ -165,6 +171,10 @@
 	.visa-health-check .form .group .column:first-child {
 		width: 100%;
 	}
+	.appointment .or {
+	    top: -2.3rem;
+	    left: 0;
+	}
 }
 
 @media only screen and (max-width: 700px) {
@@ -186,6 +196,12 @@
 	}
 	.head-space {
 		height: 5.2rem;
+	}
+	.steps-container .step-2 label {
+		padding-top: 0.2rem !important;
+	}
+	.step-3 {
+	    font-size: 1.8rem !important;
 	}
 }
 @media only screen and (max-width: 540px) {

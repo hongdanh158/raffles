@@ -443,6 +443,7 @@ $(function () {
 	        clearTimeout(window.resizeEvt);
 	        window.resizeEvt = setTimeout(function(){
 	        	headerWidth();
+	        	setWWidth();
 	        }, 100);
 	    });
 	});
