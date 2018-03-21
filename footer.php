@@ -198,8 +198,12 @@
   <script src="js/slick/slick.min.js""></script>
   <!-- End slick -->
 
-   <!-- slick -->
+   <!-- datepicker -->
   <link rel="stylesheet" href="js/datepicker/css/bootstrap-datepicker.css">
   <script src="js/datepicker/js/bootstrap-datepicker.min.js""></script>
-  <!-- End slick -->
-  <script defer src="js/script.js?v=6"></script>
+  <!-- End datepicker -->
+
+  <!-- select -->
+  <script src="js/select/js/bootstrap-select.min.js""></script>
+  <!-- End select -->
+  <script defer src="js/script.js?v=7"></script>

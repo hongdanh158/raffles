@@ -7,8 +7,9 @@
     <meta name="author" content="">
     <title>Reffles Group</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="js/select/css/bootstrap-select.min.css">
     <link href="css/icomoon.css" rel="stylesheet">
-    <link href="css/style.css?v=6" rel="stylesheet">
+    <link href="css/style.css?v=7" rel="stylesheet">
     <link href="css/responsive.css?v=6" rel="stylesheet">
     <script src="js/jquery.min.js"></script>
 

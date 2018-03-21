@@ -34,7 +34,7 @@
                       </div>
                         <div class="row">
                           <div class="col-lg-6 col-sm-12">
-                            <select class="form-control select-style">
+                            <select class="selectpicker">
                               <option>Preferred location*</option>
                               <option value="1">Ho Chi Minh</option>
                               <option value="2">Hanoi</option>
@@ -42,7 +42,7 @@
                             </select>
                           </div>
                           <div class="col-lg-6 col-sm-12">
-                            <select class="form-control">
+                            <select class="selectpicker">
                               <option>Reason for visit</option>
                               <option value="1">Visa Health Check </option>
                               <option value="2">Health Check</option>
@@ -182,21 +182,24 @@
                   </div>
                   <div class="row">
                     <div class="col-lg-6 col-sm-12">
-                      <select class="form-control">
+                      <select class="selectpicker">
                         <option value="1">Specailty</option>
                       </select>
                     </div>
                     <div class="col-lg-6 col-sm-12">
                       <span class="or"> or</span>
-                      <select class="form-control">
+                      <select class="selectpicker">
                         <option value="1">Centre</option>
                       </select>
                     </div>
                   </div>
                   <div class="row">
                     <div class="col-lg-6 col-sm-12">
-                      <select class="form-control">
-                        <option value="1">Location</option>
+                      <select class="selectpicker">
+                        <option>Location</option>
+                        <option value="1">Ho Chi Minh</option>
+                        <option value="2">Hanoi</option>
+                        <option value="3">Vung Tau</option>
                       </select>
                     </div>
                   </div>
@@ -209,14 +212,17 @@
                   </div>
                   <div class="row">
                     <div class="col-lg-6 col-sm-12">
-                      <select class="form-control">
+                      <select class="selectpicker">
                         <option value="1">Specailty</option>
                       </select>
                     </div>
                     <div class="col-lg-6 col-sm-12">
                       <span class="or"> or</span>
-                      <select class="form-control">
-                        <option value="1">Location</option>
+                      <select class="selectpicker">
+                        <option>Location</option>
+                        <option value="1">Ho Chi Minh</option>
+                        <option value="2">Hanoi</option>
+                        <option value="3">Vung Tau</option>
                       </select>
                     </div>
                   </div>
@@ -229,14 +235,17 @@
                   </div>
                   <div class="row">
                     <div class="col-lg-6 col-sm-12">
-                      <select class="form-control">
+                      <select class="selectpicker">
                         <option value="1">Clinical Interest</option>
                       </select>
                     </div>
                     <div class="col-lg-6">
                       <span class="or"> or</span>
-                      <select class="form-control">
-                        <option value="1">Location</option>
+                      <select class="selectpicker">
+                        <option>Location</option>
+                        <option value="1">Ho Chi Minh</option>
+                        <option value="2">Hanoi</option>
+                        <option value="3">Vung Tau</option>
                       </select>
                     </div>
                   </div>

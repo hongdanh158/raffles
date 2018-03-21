@@ -42,6 +42,9 @@ $(function() {
 			format: 'dd/mm/yyyy'
 		});
 	}
+	if ($('.selectpicker').length) {
+		$('.selectpicker').selectpicker();
+	}
 	// Initialize Slidebars
 	var controller = new slidebars();
 	controller.init();
@@ -100,7 +103,8 @@ $(document).ready(function() {
 	//Header script
 	$(".header .nav li").each(function(){
       if ($(this).has("ul").length) {
-        $(this).find('a').eq(0).append('<span class="icon down"><i class="fas fa-angle-down"></i></span>')
+        $(this).find('a').eq(0).append('<span class="icon down"><i class="fas fa-angle-down"></i></span>');
+        $(this).find('a').eq(0).addClass('hassub');
       };
     });
 
