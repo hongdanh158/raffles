@@ -102,6 +102,22 @@
 	.appointment .col-lg-9 p {
 		margin-bottom: 2rem;
 	}
+	.appointment .btn-group.bootstrap-select > .btn:first-child {
+	    color: #444;
+	    border: 1px solid #ced4da;
+	    font-size: 2rem;
+	}
+	.bootstrap-select .icon {
+	  top: 9px;
+	}
+	.appointment .or {
+	    position: absolute;
+	    top: -2.3rem;
+	    left: 0.3rem;
+	}
+	.appointment .btn-group.bootstrap-select {
+		margin-bottom: 2rem;
+	}
 	.services .left, .services.right {
 		margin-bottom: 2rem;
 	}
