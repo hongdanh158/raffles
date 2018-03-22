@@ -62,9 +62,9 @@
                             <div>
                                 <div class="post-meta-share-icon">
                                     <a href="#" title="Share on Twitter"><i class="fab fa-twitter"></i></a>
-                                    <a href="#" title="Share on Facebook"><i class="fab fa-facebook"></i></a>
-                                    <a href="#" title="Share on LinkedIn"><i class="fab fa-linkedin"></i></a>
-                                    <a href="#" title="Share on Google Plus"><i class="fab fa-google-plus"></i></a>
+                                    <a href="#" title="Share on Facebook"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#" title="Share on LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="#" title="Share on Google Plus"><i class="fab fa-google-plus-g"></i></a>
                                 </div>
                             </div><!-- /.post-meta -->
                             <div class="clear"></div>

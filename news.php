@@ -15,38 +15,38 @@
         <div class="row">
           <div class="col-lg-4 col-sm-6">
             <div class="item">
-              <a href="#" class="thumbnail"><img src="images/ex/1.jpg" alt=""></a>
-              <h2 class="name"><a href="health-check-tab.php">health tip</a></h2>
+              <a href="news-list.php" class="thumbnail"><img src="images/ex/1.jpg" alt=""></a>
+              <h2 class="name"><a href="news-list.php">health tip</a></h2>
             </div>
           </div>
           <div class="col-lg-4 col-sm-6">
             <div class="item">
-              <a href="#" class="thumbnail"><img src="images/ex/2.jpg" alt=""></a>
-              <h2 class="name"><a href="health-check-tab.php">news & event</a></h2>
+              <a href="news-list.php" class="thumbnail"><img src="images/ex/2.jpg" alt=""></a>
+              <h2 class="name"><a href="news-list.php">news & event</a></h2>
             </div>
           </div>
           <div class="col-lg-4 col-sm-6">
             <div class="item">
-              <a href="#" class="thumbnail"><img src="images/ex/3.jpg" alt=""></a>
-              <h2 class="name"><a href="health-check-tab.php">Customer feedback</a></h2>
+              <a href="news-list.php" class="thumbnail"><img src="images/ex/3.jpg" alt=""></a>
+              <h2 class="name"><a href="news-list.php">Customer feedback</a></h2>
             </div>
           </div>
           <div class="col-lg-4 col-sm-6">
             <div class="item">
-              <a href="#" class="thumbnail"><img src="images/ex/4.jpg" alt=""></a>
-              <h2 class="name"><a href="health-check-tab.php">Career opportunity</a></h2>
+              <a href="news-list.php" class="thumbnail"><img src="images/ex/4.jpg" alt=""></a>
+              <h2 class="name"><a href="news-list.php">Career opportunity</a></h2>
             </div>
           </div>
           <div class="col-lg-4 col-sm-6">
             <div class="item">
-              <a href="#" class="thumbnail"><img src="images/ex/5.jpg" alt=""></a>
-              <h2 class="name"><a href="health-check-tab.php">At vero eos et</a></h2>
+              <a href="news-list.php" class="thumbnail"><img src="images/ex/5.jpg" alt=""></a>
+              <h2 class="name"><a href="news-list.php">At vero eos et</a></h2>
             </div>
           </div>
           <div class="col-lg-4 col-sm-6">
             <div class="item">
-              <a href="#" class="thumbnail"><img src="images/ex/6.jpg" alt=""></a>
-              <h2 class="name"><a href="health-check-tab.php">accusamus</a></h2>
+              <a href="news-list.php" class="thumbnail"><img src="images/ex/6.jpg" alt=""></a>
+              <h2 class="name"><a href="news-list.php">accusamus</a></h2>
             </div>
           </div>
         </div>

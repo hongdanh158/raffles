@@ -206,4 +206,4 @@
   <!-- select -->
   <script src="js/select/js/bootstrap-select.min.js""></script>
   <!-- End select -->
-  <script defer src="js/script.js?v=7"></script>
+  <script defer src="js/script.js?v=8"></script>

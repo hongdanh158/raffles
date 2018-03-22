@@ -93,7 +93,7 @@
                   </ul>
                 </li>
                 <li><a href="#">Careers at Raffles</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li><a href="contact-us.php">Contact Us</a></li>
                 <li><a href="#">FAQ</a></li>
               </ul>
             </div>
