@@ -112,15 +112,19 @@ strong {
   font-size: 1.6rem !important;
   padding: 0 0.75rem;
   height: 4rem !important;
-  color: #fff;
   border-radius: 0;
 }
 .form-control:focus {
-    color: #fff;
     background-color: #fff;
     border-color: #0c806b;
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(12, 128, 107,.25);
+}
+.appointment .form-control {
+  color: #fff;
+}
+.appointment .form-control:focus {
+  color: #fff;
 }
 select.form-control option {
   color: #444;
@@ -386,7 +390,7 @@ select.form-control option {
   vertical-align: top;
   zoom: 1; /* Fix for IE7 */
   *display: inline; /* Fix for IE7 */
-  font-size: 3rem;
+  font-size: 2.2rem;
   color: #0c806b;
   border: 1px solid #0c806b;
   margin-right: 1rem;
@@ -405,7 +409,7 @@ select.form-control option {
 }
 .header .clinics ul {
   background: #fff;
-  width: 24rem;
+  width: 28rem;
   height: 0;
   overflow: hidden;
   position: absolute;
@@ -440,7 +444,7 @@ select.form-control option {
   width: 100%;
   padding: 1.5rem 1rem;
   color: #0c806b;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   -webkit-transition: all .25s ease-in-out;
      -moz-transition: all .25s ease-in-out;
       -ms-transition: all .25s ease-in-out;
@@ -486,7 +490,7 @@ select.form-control option {
   vertical-align: top;
   zoom: 1; /* Fix for IE7 */
   *display: inline; /* Fix for IE7 */
-  font-size: 3rem;
+  font-size: 2.2rem;
   color: #0c806b;
   border: 1px solid #0c806b;
   margin-right: 1rem;
@@ -518,7 +522,7 @@ select.form-control option {
   left: -22rem;
 }
 .header .language {
-  margin-top: 2.5rem;
+  margin-top: 2rem;
   -webkit-transition: all .25s ease-in-out;
      -moz-transition: all .25s ease-in-out;
       -ms-transition: all .25s ease-in-out;
@@ -544,10 +548,7 @@ select.form-control option {
   border: 0 !important;
   box-shadow: 0 !important;
   color: #0c806b;
-  font-size: 1.4rem;
-}
-.header .language .btn-secondary .icon {
-  margin-top: -0.3rem;
+  font-size: 1.6rem;
 }
 .header .language .btn-secondary:focus {
   box-shadow: none;
@@ -862,10 +863,10 @@ select.form-control option {
 .index-three-box .item .box {
   background-color: #01a987;
   padding: 1.5rem;
-  min-height: 35rem;
+  min-height: 28rem;
 }
 .index-three-box .item .name {
-  font-size: 30px;
+  font-size: 2.2rem;
   line-height: 1.2;
   margin: 3rem 0;
   text-transform: uppercase;
@@ -926,7 +927,7 @@ select.form-control option {
 }
 .healthcheck .item .box .name {
   font-family: "HelveticaNeueLight", Arial, Helvetica, sans-serif;
-  font-size: 3rem;
+  font-size: 2.2rem;
   text-align: center;
   margin-bottom: 1rem;
   line-height: 1.2;
@@ -959,7 +960,7 @@ select.form-control option {
   padding: 0 0;
 }
 .healthcare-team .heading h2 {
-  font-size: 3rem;
+  font-size: 2.2rem;
   margin-bottom: 1rem;
   font-family: 'HelveticaNeueLight', Arial, Helvetica, sans-serif;
   text-transform: uppercase;
@@ -1123,7 +1124,7 @@ select.form-control option {
 }
 .clinics-map .heading h2 {
   text-align: center;
-  font-size: 3rem;
+  font-size: 2.2rem;
   margin-bottom: 3rem;
   font-family: 'HelveticaNeueLight', Arial, Helvetica, sans-serif;
   text-transform: uppercase;
@@ -1146,7 +1147,7 @@ select.form-control option {
   margin:  0;
 }
 .services .heading {
-  font-size: 3rem;
+  font-size: 2.2rem;
   margin-bottom: 3rem;
   font-family: 'HelveticaNeueLight', Arial, Helvetica, sans-serif;
   text-transform: uppercase;
@@ -1258,7 +1259,7 @@ select.form-control option {
   text-align: center;
 }
 .index-news .heading h2 {
-  font-size: 3rem;
+  font-size: 2.2rem;
   margin-bottom: 1rem;
   font-family: 'HelveticaNeueLight', Arial, Helvetica, sans-serif;
   text-transform: uppercase;
@@ -1555,7 +1556,7 @@ select.form-control option {
   margin: 0 auto;
 }
 .highlight .heading h2 {
-  font-size: 3rem;
+  font-size: 2.2rem;
   margin-bottom: 3rem;
   font-family: 'HelveticaNeueLight', Arial, Helvetica, sans-serif;
   color: #0c806b;
@@ -1656,7 +1657,7 @@ select.form-control option {
 
 }
 .health-check-tab .heading h2 {
-  font-size: 3.6rem;
+  font-size: 2.4rem;
   font-family: "HelveticaNeueLight", Arial, "Helvetica Neue", Helvetica, sans-serif;
   color: #0c806b;
   margin-bottom: 2rem;
@@ -1726,7 +1727,7 @@ select.form-control option {
 .health-check .heading h2 {
     color: #0c806b;
     font-family: "HelveticaNeueLight", Arial, Helvetica, sans-serif;
-    font-size: 3rem;
+    font-size: 2.2rem;
     margin-bottom: 1rem;
 }
 .visa-health-check .content {
@@ -1775,7 +1776,7 @@ select.form-control option {
   opacity: 0.8;
 }
 .make-appointment-page .heading {
-  font-size: 3.6rem;
+  font-size: 2.4rem;
   font-family: "HelveticaNeueLight", Arial, "Helvetica Neue", Helvetica, sans-serif;
   color: #0c806b;
   line-height: 1.5;
@@ -1848,7 +1849,7 @@ select.form-control option {
   border: 1px solid #0c806b;
   color: #fff;
   font-family: "HelveticaNeueBold", Arial, Helvetica, sans-serif;
-  font-size: 3rem;
+  font-size: 2.2rem;
   padding: 1rem 1rem;
   -webkit-transition: all .25s ease-in-out;
      -moz-transition: all .25s ease-in-out;
@@ -1864,7 +1865,7 @@ select.form-control option {
   padding-bottom: 6rem;
 }
 .our-clinics .heading {
-  font-size: 3.6rem;
+  font-size: 2.4rem;
   font-family: "HelveticaNeueLight", Arial, "Helvetica Neue", Helvetica, sans-serif;
   color: #0c806b;
   margin-bottom: 2rem;
@@ -1920,7 +1921,7 @@ select.form-control option {
   padding-bottom: 6rem;
 }
 .about-us .heading {
-  font-size: 3.6rem;
+  font-size: 2.4rem;
   font-family: "HelveticaNeueLight", Arial, "Helvetica Neue", Helvetica, sans-serif;
   color: #0c806b;
   margin-bottom: 3rem;
@@ -2090,13 +2091,13 @@ select.form-control option {
   padding-top: 0;
 }
 .news-information .heading {
-  font-size: 3rem;
-  padding: 4rem 0;
+  font-size: 2.2rem;
+  /*padding: 4rem 0;*/
   color: #0c806b;
   font-family: "HelveticaNeueLight", Arial, Helvetica, sans-serif;
 }
-.health-check .breadcrumb, .health-check-tab .breadcrumb, .healthcare-team.sub-page .breadcrumb, .our-clinics .breadcrumb, .make-appointment-page .breadcrumb, .about-us .breadcrumb {
-  margin-bottom: 4rem;
+.breadcrumb {
+  margin-bottom: 2rem;
   font-size: 1.4rem;
 }
 
@@ -2200,4 +2201,273 @@ select.form-control option {
 .bootstrap-select.btn-group .dropdown-menu li a {
   display: block;
   padding: 0.6rem 1rem;
+}
+.bootstrap-select.btn-group .dropdown-menu li[data-original-index="0"] {
+  display: none;
+}
+.news-list .heading {
+    margin-bottom: 3rem;
+    font-size: 2.2rem;
+    color: #0c806b;
+    font-family: "HelveticaNeueLight", Arial, Helvetica, sans-serif;
+}
+.news-list .content {
+  padding: 3rem 0;
+}
+.hentry {
+    margin-top: 3rem;
+    background-color: #fff;
+    border: solid 1px #f1f1f1;
+}
+.hentry:first-child {
+    margin-top: 0;
+}
+.hentry .post-media {
+    position: relative;
+}
+.hentry .post-media img {
+  width: 100%;
+  display: block;
+}
+.clearfix:before, .clearfix:after {
+    clear: both;
+    display: table;
+    line-height: 0;
+    content: "";
+}
+.hentry .post-media .post-day {
+    position: absolute;
+    bottom: -35px;
+    left: 40px;
+    width: 70px;
+    height: 70px;
+    padding-top: 7px;
+    background-color: #0c806b;
+    color: #fff;
+    line-height: 28px;
+    text-align: center;
+}
+.hentry .post-media .post-day p {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    font-size: 1.8rem;
+}
+.hentry .post-media .post-day .day {
+  margin-bottom: 3px;
+  font-size: 2.4rem;
+}
+.hentry .post-content-wrap {
+    padding: 60px 35px 27px 40px;
+}
+.hentry .post-title {
+    line-height: 3rem;
+    font-size: 2.2rem;
+    margin-bottom: 1.6rem;
+    font-family: "HelveticaNeue", Arial, Helvetica, sans-serif;
+    color: #000;
+}
+.hentry .post-content {
+    padding-bottom: 2.6rem;
+    margin-bottom: 2rem;
+    border-bottom: solid 1px #f1f1f1;
+    line-height: 1.3;
+    font-size: 1.8rem;
+}
+.hentry .post-read-more {
+    float: left;
+}
+.hentry .post-read-more a {
+    position: relative;
+    display: inline-block;
+    color: #0c806b;
+    padding-bottom: 0.7rem;
+}
+.hentry .post-meta {
+    float: right;
+    padding-top: 3px;
+}
+.hentry .post-meta .meta {
+    display: inline-block;
+    position: relative;
+    padding-left: 2.3rem;
+    margin-right: 1.5rem;
+    font-size: 1.3rem;
+}
+.hentry .post-meta .meta.comment {
+    font-style: normal;
+}
+.pagination-page {
+    margin-top: 4rem;
+}
+/* Pagination */
+.pagination-page { margin-top: 80px; }
+.pagination-page ul { margin: 0; list-style: none; }
+.pagination-page ul li .page { width: 40px; height: 40px; line-height: 38px; font-size: 16px; color: #0c806b; border: solid 1px #f1f1f1; display: inline-block; text-align: center; vertical-align: middle; margin-right: 15px; }
+.pagination-page ul li { float: left; }
+.pagination-page ul li .page.curent, 
+.pagination-page ul li .page:hover { color: #fff; background-color: #0c806b; border-color: #f1f1f1 }
+
+#inner-content, #inner-sidebar {
+    position: relative;
+    z-index: 1;
+}
+.widget {
+    position: relative;
+    z-index: 1;
+    margin-top: 44px;
+}
+.widget:first-child {
+    margin: 0;
+}
+.widget.widget_search .search-field {
+    margin: 0;
+    border: 1px solid #f1f1f1;
+    padding: 10px 15px;
+    background-color: #fff;
+    font-size: 1.6rem;
+    line-height: inherit;
+    width: 100%;
+    height: auto;
+    text-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: border ease .238s;
+    -moz-transition: border ease .238s;
+    transition: border ease .238s;
+}
+.widget.widget_search .search-field:focus {
+  outline: 0;
+}
+.widget.widget_search .search-form .search-submit, #footer-widgets .widget.widget_search .search-form .search-submit {
+    position: absolute;
+    top: 8px;
+    right: 7px;
+    width: 24px;
+    height: 24px;
+    border: none;
+    background-color: transparent;
+    color: #666;
+}
+.widget.widget_categories {
+    margin-top: 29px;
+}
+.widget.widget_categories .widget-title {
+    margin-bottom: 14px;
+}
+.widget .widget-title {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #1a1a1a;
+    margin-bottom: 33px;
+}
+.widget .widget-title span {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 24px;
+}
+.widget .widget-title span:after {
+    width: 70px;
+    height: 2px;
+    background-color: #0c806b;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 100%;
+    z-index: -2;
+}
+/* Widget Categories*/
+.widget.widget_categories { margin-top: 29px; }
+.widget.widget_categories .widget-title { margin-bottom: 14px; }
+.widget.widget_categories ul li { list-style: none; border-top: 1px solid #f1f1f1; line-height: 55px; color: #707070; padding: 0 10px; font-size: 16px; }
+#footer-widgets .widget.widget_categories ul li { border-color: #3d3d3d; }
+.widget.widget_categories ul li a,
+#footer-widgets .widget.widget_categories ul li a { color: #707070; }
+
+.widget.widget_categories ul li:first-child { border: none; }
+.widget.widget_categories ul li:hover,
+.widget.widget_categories ul li:hover a { color: #0c806b; }
+
+.widget.widget_recent_news ul li {
+    padding: 20px 0;
+    padding-top: 0;
+    list-style: none;
+}
+.widget.widget_recent_news ul li .texts, #footer-widgets .widget.widget_recent_news ul li .texts {
+    overflow: hidden;
+}
+.widget.widget_recent_news ul li .thumb {
+    width: 90px;
+    float: left;
+    margin: 0 22px 0 0;
+}
+.widget.widget_recent_news ul li .thumb img {
+  width: 100%;
+  display: block;
+}
+.widget.widget_recent_news ul li .texts h3 {
+    font-size: 1.6rem;
+    margin: 0 0 5px;
+    line-height: 1.2;
+}
+.widget.widget_recent_news ul li .texts .post-date {
+    font-size: 14px;
+    line-height: 26px;
+    color: #707070;
+}
+
+blockquote {
+    background-color: #f9f9f9;
+    margin: 45px 0;
+    padding: 22px 32px 30px;
+    border-left: 5px solid #0c806b;
+}
+.hentry .post-meta-share-icon {
+  text-align: right;
+}
+.hentry .post-meta-share-icon a {
+    width: 40px;
+    height: 40px;
+    margin-left: 7px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    background-color: #0c806b;
+    border-radius: 10%;
+}
+.hentry .post-meta .post-meta-tag a:hover, .hentry .post-meta .post-meta-share-icon a:hover {
+    background-color: #0c806b;
+    color: #fff;
+    border-color: #0c806b;
+}
+.contanct-form .row {
+  margin-bottom: 2rem;
+}
+.contanct-form textarea {
+  height: 20rem !important;
+}
+.contact-info p {
+  line-height: 1.5;
+}
+.contact-info a {
+  color: #c70000;
+  font-family: "HelveticaNeueBold";
+}
+.btn.blue {
+  background-color: #0c806b;
+  color: #fff;
+}
+.btn.blue:hover {
+  opacity: 0.7;
+}
+.btn.reset {
+  background-color: #f1f1f1;
+}
+.btn.reset:hover{
+  color: #0c806b;
+  opacity: 0.7;
 }

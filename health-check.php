@@ -7,7 +7,7 @@
       <div class="container">
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="#"><i class="fas fa-home"></i> Raffles Medical</a></li>
-            <li class="breadcrumb-item active">Helthcheck</li>
+            <li class="breadcrumb-item active">Healthcheck</li>
         </ol>
         <div class="head-text">
           <p><strong>“A perfect healthcheck program could tell your “inside” story” </strong></p>

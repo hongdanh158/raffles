@@ -57,25 +57,25 @@
         <div class="clinics float-right">
           <ul>
             <li>
-              <a href="#">
+              <a href="tel:02838240777">
                 <strong>HO CHI MINH:</strong>
                 (028) 3824 0777
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="tel:02439340666">
                 <strong>Hanoi:</strong>
                 (024) 39340666
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="tel:02543858776">
                 <strong>Vung Tau:</strong>
-                 (0254)3858776
+                 (0254) 3858776
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="tel:1900545506">
                 <strong>Japanese Hanoi:</strong>
                 1900545506
               </a>

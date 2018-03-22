@@ -59,7 +59,7 @@
                             <input type="text" class="form-control datepicker" placeholder="Preferred Appointment Date">
                           </div>
                         </div>
-                        <div class="row"  style="margin-top: 2rem">
+                        <div class="row"  style="margin-top: 3rem">
                           <div class="col-lg-9 col-sm-12">
                             <p>After successful submission, our staff will contact you to confirm your appointment</p>
                           </div>
@@ -83,6 +83,11 @@
                           </div>
                           <div class="col-lg-6 col-sm-12">
                             <input type="text" class="form-control datepicker" placeholder="DOB*">
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-lg-12 col-sm-12">
+                            <input type="text" class="form-control" placeholder="HAD ID Number (*) For Visa Health Check only">
                           </div>
                         </div>
                         <div class="row">

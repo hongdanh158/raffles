@@ -7,7 +7,7 @@
       <div class="container">
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="#"><i class="fas fa-home"></i> Raffles Medical</a></li>
-            <li class="breadcrumb-item active">Helthcare Team</li>
+            <li class="breadcrumb-item active">Healthcare Team</li>
         </ol>
         <div class="heading">
           <h2>Healthcare Team</h2>
