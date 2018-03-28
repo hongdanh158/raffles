@@ -66,6 +66,81 @@
                   </div>
                 </div>
               </div>
+              <div class="card">
+                <div class="card-header" id="headingfour">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseOne">
+                      Contact Us
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseFour" class="collapse show" aria-labelledby="headingfour" data-parent="#accordion">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-lg-7">
+                        <div class="contact-info">
+                          <p>Thank you for your interest in Raffles Medical Viet Nam. Please complete the form below and we will get back to you shortly.
+                          </p>
+                          <p>In case of emergency, please CALL us at:</p>
+                          <p>
+                            - Raffles Medical Ho Chi Minh <a href="tel:02838240777">(028)38240777</a> <br>
+                            - Raffles Medical Ha Noi <a href="tel:02439340666">(024)39340666</a> – <a href="tel:02436762222<">(024)36762222</a> <br>
+                            - Raffles Medical Vung Tau <a href="tel:02543858776">(0254)3858776</a> <br>
+                          </p>
+                        </div> <br>
+                        <div class="contanct-form">
+                          <form action="" method="post" id="agree-form">
+                            <div class="row">
+                              <div class="col-lg-6 col-sm-12">
+                                <input type="text" class="form-control" placeholder="Last Name">
+                              </div>
+                              <div class="col-lg-6 col-sm-12">
+                                <input type="text" class="form-control" placeholder="First Name">
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-lg-6 col-sm-12">
+                                <input type="text" class="form-control" placeholder="Email Address">
+                              </div>
+                              <div class="col-lg-6 col-sm-12">
+                                <input type="text" class="form-control" placeholder="Phone number">
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-lg-12"><textarea name="" rows="3" class="form-control"></textarea></div>
+                            </div>
+                            <div class="row">
+                              <div class="col-lg-12 text-center"><a href="#" class="btn btn-primary blue">Agree</a> <button type="reset" class="btn btn-primary reset">Reset</button></div>
+                            </div>
+                        </form>
+                        </div>
+                      </div>
+                      <div class="col-lg-5">
+                        <div class="right-contact-info">
+                          <div class="item">
+                            <p class="blue-text"><strong>Raffles Medical Ho Chi Minh</strong></p>
+                            <p><span class="icon"><i class="fas fa-map-marker-alt fa-fw"></i></span> 167A Nam Ky Khoi Nghia Str., HCMC</p>
+                            <p><span class="icon"><i class="fas fa-phone fa-fw"></i></span> (028)38240777</p>
+                            <p><span class="icon"><i class="far fa-envelope fa-fw"></i></span> <a href="mailto:frontdesk_hcmc@rafflesmedical.com ">frontdesk_hcmc@rafflesmedical.com </a></p>
+                          </div>
+                          <div class="item">
+                            <p class="blue-text"><strong>Raffles Medical Ho Chi Minh</strong></p>
+                            <p><span class="icon"><i class="fas fa-map-marker-alt fa-fw"></i></span> 167A Nam Ky Khoi Nghia Str., HCMC</p>
+                            <p><span class="icon"><i class="fas fa-phone fa-fw"></i></span> (028)38240777</p>
+                            <p><span class="icon"><i class="far fa-envelope fa-fw"></i></span> <a href="mailto:frontdesk_hcmc@rafflesmedical.com ">frontdesk_hcmc@rafflesmedical.com </a></p>
+                          </div>
+                          <div class="item">
+                            <p class="blue-text"><strong>Raffles Medical Ho Chi Minh</strong></p>
+                            <p><span class="icon"><i class="fas fa-map-marker-alt fa-fw"></i></span> 167A Nam Ky Khoi Nghia Str., HCMC</p>
+                            <p><span class="icon"><i class="fas fa-phone fa-fw"></i></span> (028)38240777</p>
+                            <p><span class="icon"><i class="far fa-envelope fa-fw"></i></span> <a href="mailto:frontdesk_hcmc@rafflesmedical.com ">frontdesk_hcmc@rafflesmedical.com </a></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <div class="col-lg-3">

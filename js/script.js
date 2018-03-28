@@ -38,8 +38,11 @@ function headerWidth() {
 $(function() {
 	$('[data-toggle="tooltip"]').tooltip();
 	if ($('.datepicker').length) {
+		var date = new Date();
+		date.setDate(date.getDate()-1);
 		$('.datepicker').datepicker({
-			format: 'dd/mm/yyyy'
+			format: 'dd/mm/yyyy',
+			startDate: date
 		});
 	}
 	if ($('.selectpicker').length) {
@@ -244,6 +247,11 @@ $(document).ready(function() {
 	    );
 	}
 	// Appointment form
+	var wWith = $('.header').width();
+	if (wWith > 1024) {
+		var left = ( wWith - $('.header .container').width() - 16)/2;
+		$('.appointment').css('left', left);
+	}
 	$('.find-doctor').click(function(event) {
 		var cls = "." + $(this).attr('active');
 		$('.dcform').css('display', 'none');

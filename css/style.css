@@ -144,10 +144,10 @@ select.form-control option {
 .dropdown-menu {
   box-shadow: 0 1rem 2rem rgba(0,0,0,0.3);
       z-index: 9999999999;
-} 
+}
 .footer-nav .dropdown-menu {
   box-shadow: 0 0 1rem rgba(0,0,0,0.3);
-} 
+}
 .dropdown-item {
   font-size: 1.6rem;
   padding: 1rem 1.5rem;
@@ -810,7 +810,7 @@ select.form-control option {
   display: none;
   content: '';
   position: absolute;
-  width: 100%; 
+  width: 100%;
   height: 100%;
   top: 0;
   left: 0;
@@ -832,7 +832,7 @@ select.form-control option {
 }
 .appointment .tab-pane ul li {
   list-style: none;
-  padding-left: 1rem; 
+  padding-left: 1rem;
   position: relative;
   line-height: 1.2;
   margin-bottom: 0.5rem;
@@ -872,7 +872,7 @@ select.form-control option {
   text-transform: uppercase;
 }
 .index-three-box .item a {
-  color: #fff; 
+  color: #fff;
 }
 .index-three-box .item .box .text {
   font-size: 1.8rem;
@@ -978,6 +978,7 @@ select.form-control option {
 }
 .healthcare-team.sub-page .heading p {
   max-width: 100% !important;
+  text-align: justify
 }
 .healthcare-team .item {
   padding: 1.5rem;
@@ -1044,15 +1045,26 @@ select.form-control option {
 }
 .healthcare-team .item .info .in {
   width: 100%;
-  padding: 1rem 2rem;
+  padding: 0.5rem 2rem;
   display: block;
+  clear: both;
 }
 .healthcare-team .item .info .box {
   background-color: transparent;
   background-color: rgba(7, 95, 79, 0.9);
   width: 100%;
   height: 100%;
-  padding-top: 8rem;
+  /*padding-top: 8rem;*/
+  padding-top: 1.2rem;
+}
+.healthcare-team .item .info .in {
+ display: flex;
+}
+.healthcare-team .item .info .in .right {
+  text-align: left;
+  font-size: 1.4rem;
+  line-height: 1.2;
+  max-width: 22rem;
 }
 .healthcare-team .item .info .in .icon {
   margin: 5px;
@@ -1265,7 +1277,7 @@ select.form-control option {
   text-transform: uppercase;
 }
 .news-slider {
-  padding: 6rem 0; 
+  padding: 6rem 0;
 }
 .news-slider .item {
   padding: 1.5rem;
@@ -1680,7 +1692,7 @@ select.form-control option {
   background: #0c806b;
   left: 4rem;
   top: 4rem;
-} 
+}
 .health-check-tab .btn-link  {
   font-size: 2.4rem;
   color: #696a6a;
@@ -1717,6 +1729,7 @@ select.form-control option {
 .health-check .head-text {
   line-height: 1.2;
   margin-bottom: 3rem;
+  text-align: justify
 }
 .health-check .head-text p {
   margin-bottom: 2rem;
@@ -1798,7 +1811,7 @@ select.form-control option {
   background: #0c806b;
   left: 4rem;
   top: 4rem;
-} 
+}
 .make-appointment-page .rows {
   border-bottom: 1px solid #696a6a;
 }
@@ -1828,7 +1841,7 @@ select.form-control option {
 }
 .make-appointment-page .make-form li {
   list-style: none;
-  padding-left: 1rem; 
+  padding-left: 1rem;
   position: relative;
   line-height: 1.2;
   margin-bottom: 0.5rem;
@@ -1915,8 +1928,11 @@ select.form-control option {
 }
 .our-clinics .card-body .address {
   color: #0c806b;
+  line-height: 1.5;
 }
-
+.our-clinics .card-body .address table td {
+  padding: 3px 0;
+}
 .about-us {
   padding-bottom: 6rem;
 }
@@ -1959,6 +1975,7 @@ select.form-control option {
   position: relative;
   border-top: 2px solid #0c806b;
   line-height: 1.2;
+  text-align: justify;
 }
 .about-us .card-body .mission-vision .item .head-text {
   color: #0c806b;
@@ -2304,7 +2321,7 @@ select.form-control option {
 .pagination-page ul { margin: 0; list-style: none; }
 .pagination-page ul li .page { width: 40px; height: 40px; line-height: 38px; font-size: 16px; color: #0c806b; border: solid 1px #f1f1f1; display: inline-block; text-align: center; vertical-align: middle; margin-right: 15px; }
 .pagination-page ul li { float: left; }
-.pagination-page ul li .page.curent, 
+.pagination-page ul li .page.curent,
 .pagination-page ul li .page:hover { color: #fff; background-color: #0c806b; border-color: #f1f1f1 }
 
 #inner-content, #inner-sidebar {
@@ -2448,7 +2465,7 @@ blockquote {
   margin-bottom: 2rem;
 }
 .contanct-form textarea {
-  height: 20rem !important;
+  height: 12rem !important;
 }
 .contact-info p {
   line-height: 1.5;
@@ -2470,4 +2487,21 @@ blockquote {
 .btn.reset:hover{
   color: #0c806b;
   opacity: 0.7;
+}
+
+.right-contact-info p {
+  line-height: 1.5;
+}
+.right-contact-info a {
+  color: #696a6a;
+}
+.right-contact-info .item:first-child {
+  padding-top: 0 !important;
+}
+.right-contact-info .item {
+  margin-bottom: 2rem !important;
+  padding-bottom: 0 !important;
+}
+.blue-text {
+  color: #0c806b
 }

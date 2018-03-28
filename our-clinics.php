@@ -28,12 +28,27 @@
                       <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15697.773628099005!2d105.4361787!3d10.3863136!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xaa0592a52ac592b9!2sHair+Spa+Thanh+T%C3%B9ng!5e0!3m2!1svi!2s!4v1437015452754" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
                     </div>
                     <div class="col-lg-5">
-                      <p class="address">
-                        Opening hours: 24/7 <br>
+                      <div class="address">
+                        Working Hours:<br>
+                        <table border=0>
+                          <tr>
+                            <td width="100px">Mon – Fri</td>
+                            <td>8:00 – 20:00</td>
+                          </tr>
+                          <tr>
+                            <td>Sat</td>
+                            <td>8:00 – 17:00</td>
+                          </tr>
+                          <tr>
+                            <td>Sun</td>
+                            <td>8:00 – 12:00</td>
+                          </tr>
+                        </table> <br>
+                        <p>Emergency service: 24/7</p>
                         A: 167A Nam Ky Khoi Nghia, District 3 <br>
                         T: +84 28 3824 0777 <br>
                         E: hcmcrecption@rafflesmedical.com <br>
-                      </p>
+                      </div>
                     </div>
                   </div>
                 </div>
