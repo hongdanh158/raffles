@@ -28,7 +28,7 @@
                 <div class="steps-container">
                  <div class="steps-content">
                     <div class="steps step-1">
-                      <div class="row"><p class="size-24" style="margin-left: 15px;">Make an appointment</p></div>
+                      <div class="row"><p class="size-18" style="margin-left: 15px;">Make an appointment</p></div>
                       <div class="row">
                         <div class="col-lg-12">All fields marked with * are required</div>
                       </div>
@@ -51,7 +51,21 @@
                         </div>
                         <div class="row">
                           <div class="col-sm-12">
-                            <input type="text" class="form-control" placeholder="Preferred Doctor">
+                            <select class="selectpicker">
+                              <option value="Dr. Truong Hoang Phu Phi">Dr. Truong Hoang Phu Phi</option>
+                              <option value="Dr. Toshihiko Takajima">Dr. Toshihiko Takajima</option>
+                              <option value="Dr. Ong Kian Soon">Dr. Ong Kian Soon</option>
+                              <option value="Dr. Orly Dafni Attia">Dr. Orly Dafni Attia</option>
+                              <option value="Dr. Jonathan Goh">Dr. Jonathan Goh</option>
+                              <option value="Dr. Nguyen Thi Hong Anh">Dr. Nguyen Thi Hong Anh</option>
+                              <option value="Dr. Nguyen Hoang Thi">Dr. Nguyen Hoang Thi</option>
+                              <option value="Dr. Lai Zhun Neay">Dr. Lai Zhun Neay</option>
+                              <option value="Dr. Tran Lan Quyen">Dr. Tran Lan Quyen</option>
+                              <option value="Dr. Huynh Chu">Dr. Huynh Chu</option>
+                              <option value="Dr. Nguyen Do Nhu Quynh">Dr. Nguyen Do Nhu Quynh</option>
+                              <option value="Dr. Ho Si Sach">Dr. Ho Si Sach</option>
+                            </select>
+                            <!-- <input type="text" class="form-control" placeholder="Preferred Doctor"> -->
                           </div>
                         </div>
                         <div class="row">
@@ -156,7 +170,7 @@
           <div id="tab2" class="tab-pane">
             <div class="content">
               <form action="" method="post">
-                <div class="row"><p class="size-24" style="margin-left: 1.5rem;">Find a Doctor</p></div>
+                <div class="row"><p class="size-18" style="margin-left: 1.5rem;">Find a Doctor</p></div>
                 <div class="row">
                   <div class="col-lg-12">
                     <div class="form-check">

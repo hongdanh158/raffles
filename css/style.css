@@ -49,7 +49,7 @@ input,select{vertical-align:middle}
 }
 html { font-size: 62.5%; /* Mac dinh ve gia tri 10px */ }
 body {
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   font-family: 'HelveticaNeueLight', Arial, Helvetica, sans-serif;
   color:#696a6a;
   position: relative;
@@ -91,6 +91,9 @@ strong {
 }
 .size-24 {
   font-size: 24px;
+}
+.size-18 {
+  font-size: 1.8rem;
 }
 .red {
   color: #c70000;
@@ -205,7 +208,7 @@ select.form-control option {
   background-color: transparent;
   padding: 0.5rem 1rem;
   color: #0c806b;
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   border-color: #0c806b;
   text-transform: uppercase;
 }
@@ -480,7 +483,7 @@ select.form-control option {
           transition: all .25s ease-in-out;
 }
 .header .search .input input {
-  height: 4.2rem !important;
+  height: 3.4rem !important;
   border-left: 1px solid #0c806b;
   border-top: 1px solid #0c806b;
   border-bottom: 1px solid #0c806b;
@@ -773,7 +776,7 @@ select.form-control option {
   border-color: #a4cd5a;
 }
 .appointment  .blue-text {
-  font-size: 18px;
+  font-size: 1.8rem;
   color: #0078a7;
 }
 .appointment  ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
@@ -866,7 +869,7 @@ select.form-control option {
   min-height: 28rem;
 }
 .index-three-box .item .name {
-  font-size: 2.2rem;
+  font-size: 1.8rem;
   line-height: 1.2;
   margin: 3rem 0;
   text-transform: uppercase;
@@ -875,7 +878,7 @@ select.form-control option {
   color: #fff;
 }
 .index-three-box .item .box .text {
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   line-height: 1.2;
   text-align: justify;
   margin-bottom: 3rem;
@@ -927,7 +930,7 @@ select.form-control option {
 }
 .healthcheck .item .box .name {
   font-family: "HelveticaNeueLight", Arial, Helvetica, sans-serif;
-  font-size: 2.2rem;
+  font-size: 1.8rem;
   text-align: center;
   margin-bottom: 1rem;
   line-height: 1.2;
@@ -939,7 +942,7 @@ select.form-control option {
 }
 .healthcheck .item .box .text {
   line-height: 1.2;
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   text-align: justify;
 
 }
@@ -960,7 +963,7 @@ select.form-control option {
   padding: 0 0;
 }
 .healthcare-team .heading h2 {
-  font-size: 2.2rem;
+  font-size: 1.8rem;
   margin-bottom: 1rem;
   font-family: 'HelveticaNeueLight', Arial, Helvetica, sans-serif;
   text-transform: uppercase;
@@ -970,7 +973,7 @@ select.form-control option {
   font-family: "HelveticaNeueLight", Arial, Helvetica, sans-serif;
 }
 .healthcare-team .heading p {
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   width: 100%;
   max-width: 715px;
   margin: 0 auto;
@@ -1002,7 +1005,7 @@ select.form-control option {
 .healthcare-team .item .box .name {
   width: 80%;
   margin: 0 auto;
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-family: "HelveticaNeueBold", Arial, Helvetica, sans-serif;
   text-transform: uppercase;
   text-align: center;
@@ -1019,7 +1022,7 @@ select.form-control option {
 .healthcare-team .item .box .title {
   width: 90%;
   margin: 0 auto;
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   line-height: 1.2;
   text-align: center;
   margin-bottom: 2rem;
@@ -1136,7 +1139,7 @@ select.form-control option {
 }
 .clinics-map .heading h2 {
   text-align: center;
-  font-size: 2.2rem;
+  font-size: 1.8rem;
   margin-bottom: 3rem;
   font-family: 'HelveticaNeueLight', Arial, Helvetica, sans-serif;
   text-transform: uppercase;
@@ -1159,7 +1162,7 @@ select.form-control option {
   margin:  0;
 }
 .services .heading {
-  font-size: 2.2rem;
+  font-size: 1.8rem;
   margin-bottom: 3rem;
   font-family: 'HelveticaNeueLight', Arial, Helvetica, sans-serif;
   text-transform: uppercase;
@@ -1233,6 +1236,7 @@ select.form-control option {
 }
 .services .item .box p {
   padding: 0 1.5rem;
+  font-size: 1.7rem;
 }
 .services .item .box .thumbnail {
   display: block;
@@ -1245,7 +1249,7 @@ select.form-control option {
 .services .item .box .name {
   width: 80%;
   margin: 0 auto;
-  font-size: 20px;
+  font-size: 1.8rem;
   font-family: "HelveticaNeue", Arial, Helvetica, sans-serif;
   text-transform: uppercase;
   text-align: center;
@@ -1263,7 +1267,7 @@ select.form-control option {
 }
 .index-news .heading {
   margin-bottom: 3rem;
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   line-height: 1.2;
   width: 100%;
   max-width: 615px;
@@ -1271,7 +1275,7 @@ select.form-control option {
   text-align: center;
 }
 .index-news .heading h2 {
-  font-size: 2.2rem;
+  font-size: 1.8rem;
   margin-bottom: 1rem;
   font-family: 'HelveticaNeueLight', Arial, Helvetica, sans-serif;
   text-transform: uppercase;
@@ -1297,7 +1301,7 @@ select.form-control option {
   width: 100%;
 }
 .news-slider .item .box .name {
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: #000000;
   line-height: 1.2;
   width: 90%;
@@ -1694,7 +1698,7 @@ select.form-control option {
   top: 4rem;
 }
 .health-check-tab .btn-link  {
-  font-size: 2.4rem;
+  font-size: 1.8rem;
   color: #696a6a;
   padding: .375rem 0;
 }
@@ -1789,7 +1793,7 @@ select.form-control option {
   opacity: 0.8;
 }
 .make-appointment-page .heading {
-  font-size: 2.4rem;
+  font-size: 1.8rem;
   font-family: "HelveticaNeueLight", Arial, "Helvetica Neue", Helvetica, sans-serif;
   color: #0c806b;
   line-height: 1.5;
@@ -1819,7 +1823,7 @@ select.form-control option {
   padding: 1.5rem 0 !important;
 }
 .make-appointment-page .item .head {
-  font-size: 2.4rem;
+  font-size: 1.8rem;
   color: #696a6a;
 }
 .make-appointment-page .item .blue-text {
@@ -1891,7 +1895,7 @@ select.form-control option {
   position: relative;
 }
 .our-clinics  .btn-link  {
-  font-size: 2.4rem;
+  font-size: 1.8rem;
   color: #0c806b;
   display: block;
 }
@@ -1913,7 +1917,7 @@ select.form-control option {
   position: relative;
   padding: 1.5rem 0
 }
-.our-clinics  .card-header .btn-link {
+.our-clinics .card-header .btn-link {
   padding: .375rem 0;
 }
 .our-clinics .card-body {
@@ -1937,7 +1941,7 @@ select.form-control option {
   padding-bottom: 6rem;
 }
 .about-us .heading {
-  font-size: 2.4rem;
+  font-size: 1.8rem;
   font-family: "HelveticaNeueLight", Arial, "Helvetica Neue", Helvetica, sans-serif;
   color: #0c806b;
   margin-bottom: 3rem;
@@ -1947,7 +1951,7 @@ select.form-control option {
   position: relative;
 }
 .about-us .btn-link  {
-  font-size: 2.4rem;
+  font-size: 1.8rem;
   color: #696a6a;
   padding: .375rem 0;
   display: block;
@@ -2278,7 +2282,7 @@ select.form-control option {
 }
 .hentry .post-title {
     line-height: 3rem;
-    font-size: 2.2rem;
+    font-size: 1.8rem;
     margin-bottom: 1.6rem;
     font-family: "HelveticaNeue", Arial, Helvetica, sans-serif;
     color: #000;
