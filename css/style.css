@@ -585,10 +585,13 @@ select.form-control option {
 .header .nav > li:hover a {
   color: #0c806b;
 }
+.header .nav > li.active > a, .header .nav > li > a.active {
+  color: #a9cf48;
+}
 .header .nav > li {
   display: table-cell;
   border-right: 1px solid #fff;
-  max-width: 18rem;
+  width: 18rem;
   vertical-align: middle;
 }
 .header .nav > li:last-child {

@@ -106,7 +106,7 @@
                 </li>
               </ul>
             </li>
-            <li>
+            <li class="active">
               <a href="health-check.php">Health Check Programs</a>
               <ul>
                 <li>
