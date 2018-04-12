@@ -25,7 +25,8 @@
 
   </head>
   <body>
-    <header class="header">
+    <div class="body" canvas="container">
+      <header class="header">
       <div class="top container">
         <div id="cd-menu-trigger" class="js-toggle-right-slidebar js-menu-mobile">
             <div class="trigger-menu"><span class="three-bars-icon"></span></div>
@@ -216,4 +217,3 @@
       </div>
       <!-- End Navbar -->
     </header>
-    <div class="body" canvas="container">
