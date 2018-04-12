@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	headerWidth();
+	// headerWidth();
 });
 function getScrollBarWidth () {
 	var inner          = document.createElement('p');
@@ -446,7 +446,7 @@ $(function () {
 	$(window).resize(function(){
         clearTimeout(window.resizeEvt);
         window.resizeEvt = setTimeout(function(){
-        	headerWidth();
+        	// headerWidth();
         }, 250);
     });
 	$(window).bind('resize', function(e){
@@ -454,7 +454,7 @@ $(function () {
 	    $(window).resize(function(){
 	        clearTimeout(window.resizeEvt);
 	        window.resizeEvt = setTimeout(function(){
-	        	headerWidth();
+	        	// headerWidth();
 	        	setWWidth();
 	        }, 100);
 	    });
