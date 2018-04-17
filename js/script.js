@@ -136,7 +136,7 @@ $(document).ready(function() {
 	$('.header .search .icon').click(function(event) {
 	  	if (!$('.header .search').hasClass('show')) {
 	  		$('.header .search').addClass('show');
-	  		addOverlay('body');
+	  		addOverlay('.body');
 	  		addOverlay('.header .container');
 	  	}
 	  	if ($('.header .clinics').hasClass('show')) {
@@ -146,7 +146,7 @@ $(document).ready(function() {
 	$('body').on('click', '.overlay', function(event) {
 	  	$('.header .search').removeClass('show');
 	  	$('.header .clinics').removeClass('show');
-	  	removeOverlay('body');
+	  	removeOverlay('.body');
 	  	removeOverlay('.header .container');
 	});
 	$('.header .clinics .icon').click(function() {
@@ -156,7 +156,7 @@ $(document).ready(function() {
 		}
 		else {
 			$('.header .clinics').addClass('show');
-			addOverlay('body');
+			addOverlay('.body');
 	  		addOverlay('.header .container');
 		}
 		
