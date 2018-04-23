@@ -45,6 +45,11 @@ $(function() {
 			startDate: date
 		});
 	}
+	if ($('.dob').length) {
+		$('.dob').datepicker({
+			format: 'dd/mm/yyyy'
+		});
+	}
 	if ($('.selectpicker').length) {
 		$('.selectpicker').selectpicker();
 	}

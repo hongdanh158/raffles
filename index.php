@@ -96,7 +96,7 @@
                             <input type="text" class="form-control" placeholder="Phone number*">
                           </div>
                           <div class="col-lg-6 col-sm-12">
-                            <input type="text" class="form-control datepicker" placeholder="DOB*">
+                            <input type="text" class="form-control dob" placeholder="DOB*">
                           </div>
                         </div>
                         <div class="row">
